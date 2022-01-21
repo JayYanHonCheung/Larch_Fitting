@@ -1,0 +1,63 @@
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Structure from AMSCIFDB, AMS_ID: 1523590       Feff8L (EXAFS)       0.1
+ Mineral Name: <missing>
+ Journal:   Zeitschrift f\"ur Elektrochemie und angewandte physikalische Chemie
+ Authors: Esch, U., Schneider, A.
+ Title1:   Das System Nickel-Platin
+ Formula:    Ni0.5Pt0.5
+ SpaceGroup: Fm-3m
+ # sites:    1
+ POT  Non-SCF, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=78 Rmt= 1.402 Rnm= 1.437 L3 shell
+ Pot 1 Z=28 Rmt= 1.410 Rnm= 1.447
+ Pot 2 Z=78 Rmt= 1.420 Rnm= 1.459
+ Gam_ch=5.171E+00 H-L exch
+ Mu=-4.554E+00 kf=2.071E+00 Vint=-2.089E+01 Rs_int= 1.751
+ PATH  Rmax= 7.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 2.50%
+      41 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+       8     feff0008.dat
+       9     feff0009.dat
+      10     feff0010.dat
+      11     feff0011.dat
+      12     feff0012.dat
+      13     feff0013.dat
+      14     feff0014.dat
+      15     feff0015.dat
+      16     feff0016.dat
+      17     feff0017.dat
+      18     feff0018.dat
+      19     feff0019.dat
+      20     feff0021.dat
+      21     feff0022.dat
+      22     feff0023.dat
+      23     feff0024.dat
+      24     feff0025.dat
+      25     feff0026.dat
+      26     feff0027.dat
+      27     feff0029.dat
+      28     feff0030.dat
+      29     feff0031.dat
+      30     feff0032.dat
+      31     feff0033.dat
+      32     feff0034.dat
+      33     feff0035.dat
+      34     feff0036.dat
+      35     feff0039.dat
+      36     feff0040.dat
+      37     feff0041.dat
+      38     feff0042.dat
+      39     feff0043.dat
+      40     feff0044.dat
+      41     feff0045.dat
+    Use all paths with cw amplitude ratio   4.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.
