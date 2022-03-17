@@ -1,0 +1,1009 @@
+=================== FEFFIT RESULTS ====================
+[[Statistics]]
+   nvarys, npts       =  43, 1300
+   n_independent      =  99.127
+   chi_square         =  453.619359
+   reduced chi_square =  8.08205023
+   r-factor           =  0.06196576
+   Akaike info crit   =  236.757829
+   Bayesian info crit =  348.403008
+ 
+[[Datasets (10)]]
+ dataset 1:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00421879, std=0.00438050)
+   epsilon_r          = 0.03758848
+   n_independent      = 9.913
+ dataset 2:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00440536, std=0.00438774)
+   epsilon_r          = 0.03925079
+   n_independent      = 9.913
+ dataset 3:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00398912, std=0.00436031)
+   epsilon_r          = 0.03554214
+   n_independent      = 9.913
+ dataset 4:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00423392, std=0.00450204)
+   epsilon_r          = 0.03772323
+   n_independent      = 9.913
+ dataset 5:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00415469, std=0.00429432)
+   epsilon_r          = 0.03701733
+   n_independent      = 9.913
+ dataset 6:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00441967, std=0.00421574)
+   epsilon_r          = 0.03937825
+   n_independent      = 9.913
+ dataset 7:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00442557, std=0.00425984)
+   epsilon_r          = 0.03943082
+   n_independent      = 9.913
+ dataset 8:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00424941, std=0.00438927)
+   epsilon_r          = 0.03786128
+   n_independent      = 9.913
+ dataset 9:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00412243, std=0.00434611)
+   epsilon_r          = 0.03672993
+   n_independent      = 9.913
+ dataset 10:
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00476708, std=0.00459826)
+   epsilon_r          = 0.04247365
+   n_independent      = 9.913
+ 
+[[Variables]]
+   deltar_CuO_d1  =  0.00920181 +/- 0.01150501   (init=  0.10000000)
+   deltar_CuO_d10 = -0.00335654 +/- 0.01252822   (init=  0.10000000)
+   deltar_CuO_d2  =  0.00825934 +/- 0.01204481   (init=  0.10000000)
+   deltar_CuO_d3  =  0.01132643 +/- 0.01129649   (init=  0.10000000)
+   deltar_CuO_d4  =  0.00771285 +/- 0.01162142   (init=  0.10000000)
+   deltar_CuO_d5  =  0.00846542 +/- 0.01158051   (init=  0.10000000)
+   deltar_CuO_d6  =  0.00880166 +/- 0.01207069   (init=  0.10000000)
+   deltar_CuO_d7  =  0.01112279 +/- 0.01223210   (init=  0.10000000)
+   deltar_CuO_d8  =  0.00699730 +/- 0.01180975   (init=  0.10000000)
+   deltar_CuO_d9  =  0.00785738 +/- 0.01170842   (init=  0.10000000)
+   deltar_Cu_d1   = -0.01312395 +/- 0.06728636   (init=  0.10000000)
+   deltar_Cu_d10  = -0.03956446 +/- 0.07776138   (init=  0.10000000)
+   deltar_Cu_d2   = -0.02510599 +/- 0.05088086   (init=  0.10000000)
+   deltar_Cu_d3   = -0.00291070 +/- 0.05090692   (init=  0.10000000)
+   deltar_Cu_d4   = -0.01667853 +/- 0.03986616   (init=  0.10000000)
+   deltar_Cu_d5   = -0.01624163 +/- 0.04247975   (init=  0.10000000)
+   deltar_Cu_d6   = -0.03025418 +/- 0.07104758   (init=  0.10000000)
+   deltar_Cu_d7   = -0.01429834 +/- 0.07020438   (init=  0.10000000)
+   deltar_Cu_d8   = -0.00954395 +/- 0.05280068   (init=  0.10000000)
+   deltar_Cu_d9   = -0.00590046 +/- 0.05994760   (init=  0.10000000)
+   e0             = -1.01734220 +/- 1.07879063   (init=  0.10000000)
+   n_CuO_d1       =  3.13011187 +/- 0.44062367   (init=  1.00000000)
+   n_CuO_d10      =  3.05190611 +/- 0.46428614   (init=  1.00000000)
+   n_CuO_d2       =  3.03389590 +/- 0.44462607   (init=  1.00000000)
+   n_CuO_d3       =  3.06180590 +/- 0.42224543   (init=  1.00000000)
+   n_CuO_d4       =  3.07976170 +/- 0.43510158   (init=  1.00000000)
+   n_CuO_d5       =  3.04256293 +/- 0.42890296   (init=  1.00000000)
+   n_CuO_d6       =  3.03742708 +/- 0.44757635   (init=  1.00000000)
+   n_CuO_d7       =  3.00100191 +/- 0.44619738   (init=  1.00000000)
+   n_CuO_d8       =  3.02112094 +/- 0.43362424   (init=  1.00000000)
+   n_CuO_d9       =  2.97515969 +/- 0.42424160   (init=  1.00000000)
+   n_Cu_d1        = -0.14065476 +/- 0.20099999   (init=  1.00000000)
+   n_Cu_d10       = -0.13422684 +/- 0.20836335   (init=  1.00000000)
+   n_Cu_d2        = -0.19391732 +/- 0.24423784   (init=  1.00000000)
+   n_Cu_d3        = -0.17829489 +/- 0.22406307   (init=  1.00000000)
+   n_Cu_d4        = -0.24222342 +/- 0.28108442   (init=  1.00000000)
+   n_Cu_d5        = -0.22229138 +/- 0.26271948   (init=  1.00000000)
+   n_Cu_d6        = -0.13754443 +/- 0.20262367   (init=  1.00000000)
+   n_Cu_d7        = -0.14119388 +/- 0.20671107   (init=  1.00000000)
+   n_Cu_d8        = -0.18221010 +/- 0.23255637   (init=  1.00000000)
+   n_Cu_d9        = -0.15546916 +/- 0.20988693   (init=  1.00000000)
+   sigma2_Cu      =  0.00100000 +/- 0.00787326   (init=  0.00800000)
+   sigma2_CuO     =  0.00662362 +/- 0.00138308   (init=  0.00800000)
+ 
+[[Correlations]]    (unreported correlations are <  0.100)
+   n_Cu_d4, sigma2_Cu   = -0.852
+   n_Cu_d5, sigma2_Cu   = -0.835
+   n_Cu_d2, sigma2_Cu   = -0.784
+   n_Cu_d3, sigma2_Cu   = -0.776
+   n_Cu_d8, sigma2_Cu   = -0.767
+   n_Cu_d9, sigma2_Cu   = -0.721
+   n_Cu_d4, n_Cu_d5     =  0.712
+   n_Cu_d1, sigma2_Cu   = -0.680
+   n_Cu_d2, n_Cu_d4     =  0.669
+   n_Cu_d6, sigma2_Cu   = -0.665
+   n_Cu_d7, sigma2_Cu   = -0.665
+   n_Cu_d3, n_Cu_d4     =  0.662
+   n_CuO_d3, sigma2_CuO =  0.656
+   n_Cu_d2, n_Cu_d5     =  0.656
+   n_Cu_d4, n_Cu_d8     =  0.655
+   n_Cu_d3, n_Cu_d5     =  0.650
+   n_CuO_d1, sigma2_CuO =  0.648
+   n_Cu_d5, n_Cu_d8     =  0.642
+   n_CuO_d5, sigma2_CuO =  0.638
+   n_CuO_d9, sigma2_CuO =  0.636
+   n_CuO_d4, sigma2_CuO =  0.634
+   n_Cu_d10, sigma2_Cu  = -0.631
+   n_CuO_d8, sigma2_CuO =  0.630
+   n_CuO_d6, sigma2_CuO =  0.620
+   n_CuO_d2, sigma2_CuO =  0.618
+   n_Cu_d4, n_Cu_d9     =  0.616
+   n_CuO_d7, sigma2_CuO =  0.613
+   n_Cu_d2, n_Cu_d3     =  0.610
+   n_Cu_d5, n_Cu_d9     =  0.604
+   n_Cu_d2, n_Cu_d8     =  0.603
+   n_CuO_d10, sigma2_CuO =  0.601
+   n_Cu_d3, n_Cu_d8     =  0.597
+   deltar_CuO_d3, e0    =  0.594
+   n_Cu_d1, n_Cu_d4     =  0.581
+   deltar_CuO_d1, e0    =  0.580
+   deltar_CuO_d5, e0    =  0.573
+   deltar_CuO_d9, e0    =  0.571
+   deltar_CuO_d4, e0    =  0.571
+   n_Cu_d1, n_Cu_d5     =  0.569
+   n_Cu_d4, n_Cu_d6     =  0.568
+   n_Cu_d4, n_Cu_d7     =  0.568
+   n_Cu_d2, n_Cu_d9     =  0.567
+   deltar_CuO_d8, e0    =  0.565
+   n_Cu_d3, n_Cu_d9     =  0.562
+   n_Cu_d5, n_Cu_d6     =  0.557
+   n_Cu_d5, n_Cu_d7     =  0.557
+   n_Cu_d8, n_Cu_d9     =  0.555
+   deltar_CuO_d2, e0    =  0.548
+   deltar_CuO_d6, e0    =  0.547
+   deltar_CuO_d7, e0    =  0.545
+   n_Cu_d10, n_Cu_d4    =  0.539
+   n_Cu_d1, n_Cu_d2     =  0.535
+   n_Cu_d1, n_Cu_d3     =  0.530
+   n_Cu_d10, n_Cu_d5    =  0.529
+   n_Cu_d1, n_Cu_d8     =  0.523
+   n_Cu_d2, n_Cu_d6     =  0.523
+   n_Cu_d2, n_Cu_d7     =  0.523
+   deltar_CuO_d10, e0   =  0.520
+   n_Cu_d3, n_Cu_d6     =  0.518
+   n_Cu_d3, n_Cu_d7     =  0.518
+   n_Cu_d6, n_Cu_d8     =  0.512
+   n_Cu_d7, n_Cu_d8     =  0.512
+   n_Cu_d10, n_Cu_d2    =  0.497
+   n_Cu_d1, n_Cu_d9     =  0.492
+   n_Cu_d10, n_Cu_d3    =  0.492
+   n_Cu_d10, n_Cu_d8    =  0.486
+   n_Cu_d6, n_Cu_d9     =  0.482
+   n_Cu_d7, n_Cu_d9     =  0.482
+   sigma2_Cu, sigma2_CuO = -0.481
+   n_Cu_d10, n_Cu_d9    =  0.457
+   n_Cu_d1, n_Cu_d6     =  0.455
+   n_Cu_d1, n_Cu_d7     =  0.454
+   n_Cu_d6, n_Cu_d7     =  0.445
+   n_CuO_d1, n_CuO_d3   =  0.437
+   n_Cu_d1, n_Cu_d10    =  0.431
+   n_CuO_d3, n_CuO_d5   =  0.430
+   n_CuO_d3, n_CuO_d9   =  0.429
+   n_CuO_d3, n_CuO_d4   =  0.428
+   n_CuO_d3, n_CuO_d8   =  0.425
+   n_CuO_d1, n_CuO_d5   =  0.425
+   n_CuO_d1, n_CuO_d9   =  0.423
+   n_CuO_d1, n_CuO_d4   =  0.423
+   n_Cu_d10, n_Cu_d6    =  0.422
+   n_Cu_d10, n_Cu_d7    =  0.422
+   n_CuO_d1, n_CuO_d8   =  0.419
+   n_CuO_d3, n_CuO_d6   =  0.418
+   n_CuO_d5, n_CuO_d9   =  0.417
+   n_CuO_d4, n_CuO_d5   =  0.417
+   n_CuO_d2, n_CuO_d3   =  0.417
+   n_CuO_d4, n_CuO_d9   =  0.415
+   n_CuO_d5, n_CuO_d8   =  0.413
+   n_CuO_d3, n_CuO_d7   =  0.413
+   n_CuO_d1, n_CuO_d6   =  0.413
+   n_CuO_d8, n_CuO_d9   =  0.412
+   n_CuO_d4, n_CuO_d8   =  0.411
+   n_CuO_d1, n_CuO_d2   =  0.411
+   n_CuO_d1, n_CuO_d7   =  0.408
+   n_CuO_d5, n_CuO_d6   =  0.407
+   n_CuO_d6, n_CuO_d9   =  0.406
+   n_CuO_d2, n_CuO_d5   =  0.405
+   n_CuO_d10, n_CuO_d3  =  0.405
+   n_CuO_d4, n_CuO_d6   =  0.405
+   n_CuO_d2, n_CuO_d9   =  0.404
+   n_CuO_d2, n_CuO_d4   =  0.403
+   n_CuO_d5, n_CuO_d7   =  0.402
+   e0, sigma2_CuO       = -0.401
+   n_CuO_d6, n_CuO_d8   =  0.401
+   n_CuO_d7, n_CuO_d9   =  0.401
+   n_CuO_d2, n_CuO_d8   =  0.400
+   n_CuO_d4, n_CuO_d7   =  0.400
+   n_CuO_d1, n_CuO_d10  =  0.400
+   n_CuO_d7, n_CuO_d8   =  0.397
+   n_CuO_d10, n_CuO_d5  =  0.394
+   n_CuO_d2, n_CuO_d6   =  0.394
+   n_CuO_d10, n_CuO_d9  =  0.393
+   n_CuO_d10, n_CuO_d4  =  0.392
+   n_CuO_d6, n_CuO_d7   =  0.390
+   n_CuO_d2, n_CuO_d7   =  0.389
+   n_CuO_d10, n_CuO_d8  =  0.389
+   n_CuO_d10, n_CuO_d6  =  0.383
+   n_CuO_d10, n_CuO_d2  =  0.381
+   n_Cu_d4, sigma2_CuO  =  0.379
+   n_CuO_d10, n_CuO_d7  =  0.378
+   e0, sigma2_Cu        =  0.370
+   n_Cu_d5, sigma2_CuO  =  0.369
+   deltar_CuO_d1, deltar_CuO_d3 =  0.366
+   deltar_CuO_d3, deltar_CuO_d5 =  0.362
+   deltar_CuO_d3, deltar_CuO_d4 =  0.360
+   deltar_CuO_d3, deltar_CuO_d9 =  0.360
+   e0, n_CuO_d3         = -0.357
+   deltar_CuO_d3, deltar_CuO_d8 =  0.356
+   deltar_CuO_d1, deltar_CuO_d5 =  0.353
+   e0, n_CuO_d1         = -0.353
+   deltar_CuO_d1, deltar_CuO_d4 =  0.352
+   deltar_CuO_d1, deltar_CuO_d9 =  0.351
+   deltar_CuO_d4, deltar_CuO_d5 =  0.348
+   deltar_CuO_d5, deltar_CuO_d9 =  0.348
+   deltar_CuO_d1, deltar_CuO_d8 =  0.348
+   e0, n_CuO_d5         = -0.347
+   e0, n_CuO_d9         = -0.347
+   deltar_CuO_d2, deltar_CuO_d3 =  0.346
+   deltar_CuO_d4, deltar_CuO_d9 =  0.346
+   deltar_CuO_d3, deltar_CuO_d6 =  0.346
+   e0, n_CuO_d4         = -0.346
+   deltar_CuO_d3, deltar_CuO_d7 =  0.344
+   deltar_CuO_d5, deltar_CuO_d8 =  0.344
+   e0, n_CuO_d8         = -0.343
+   n_Cu_d2, sigma2_CuO  =  0.343
+   deltar_CuO_d4, deltar_CuO_d8 =  0.342
+   deltar_CuO_d8, deltar_CuO_d9 =  0.342
+   e0, n_CuO_d6         = -0.339
+   deltar_CuO_d1, deltar_CuO_d2 =  0.338
+   deltar_CuO_d1, deltar_CuO_d6 =  0.338
+   e0, n_CuO_d2         = -0.337
+   deltar_CuO_d1, deltar_CuO_d7 =  0.336
+   n_Cu_d3, sigma2_CuO  =  0.336
+   deltar_CuO_d2, deltar_CuO_d5 =  0.335
+   deltar_CuO_d5, deltar_CuO_d6 =  0.334
+   e0, n_CuO_d7         = -0.334
+   n_Cu_d8, sigma2_CuO  =  0.334
+   deltar_CuO_d2, deltar_CuO_d4 =  0.333
+   deltar_CuO_d4, deltar_CuO_d6 =  0.333
+   deltar_CuO_d2, deltar_CuO_d9 =  0.333
+   deltar_CuO_d5, deltar_CuO_d7 =  0.333
+   deltar_CuO_d6, deltar_CuO_d9 =  0.332
+   deltar_CuO_d4, deltar_CuO_d7 =  0.331
+   deltar_CuO_d7, deltar_CuO_d9 =  0.331
+   e0, n_CuO_d10        = -0.331
+   deltar_CuO_d2, deltar_CuO_d8 =  0.329
+   deltar_CuO_d10, deltar_CuO_d3 =  0.329
+   deltar_CuO_d6, deltar_CuO_d8 =  0.329
+   deltar_CuO_d7, deltar_CuO_d8 =  0.327
+   deltar_CuO_d1, deltar_CuO_d10 =  0.322
+   deltar_CuO_d2, deltar_CuO_d6 =  0.320
+   deltar_CuO_d2, deltar_CuO_d7 =  0.319
+   deltar_CuO_d10, deltar_CuO_d5 =  0.318
+   deltar_CuO_d6, deltar_CuO_d7 =  0.318
+   deltar_CuO_d10, deltar_CuO_d4 =  0.317
+   deltar_CuO_d10, deltar_CuO_d9 =  0.316
+   deltar_CuO_d10, deltar_CuO_d8 =  0.313
+   e0, n_Cu_d4          = -0.313
+   n_Cu_d9, sigma2_CuO  =  0.308
+   e0, n_Cu_d5          = -0.306
+   n_CuO_d1, sigma2_Cu  = -0.306
+   deltar_CuO_d10, deltar_CuO_d2 =  0.305
+   deltar_CuO_d10, deltar_CuO_d6 =  0.304
+   deltar_CuO_d10, deltar_CuO_d7 =  0.303
+   n_CuO_d3, sigma2_Cu  = -0.301
+   n_CuO_d6, sigma2_Cu  = -0.296
+   n_CuO_d9, sigma2_Cu  = -0.296
+   e0, n_Cu_d2          = -0.290
+   n_CuO_d7, sigma2_Cu  = -0.288
+   n_CuO_d8, sigma2_Cu  = -0.288
+   n_CuO_d10, sigma2_Cu = -0.288
+   n_CuO_d5, sigma2_Cu  = -0.285
+   n_CuO_d2, sigma2_Cu  = -0.284
+   n_Cu_d1, sigma2_CuO  =  0.283
+   n_CuO_d4, sigma2_Cu  = -0.281
+   e0, n_Cu_d3          = -0.280
+   n_Cu_d6, sigma2_CuO  =  0.280
+   n_Cu_d7, sigma2_CuO  =  0.279
+   e0, n_Cu_d8          = -0.278
+   n_Cu_d10, sigma2_CuO =  0.266
+   e0, n_Cu_d9          = -0.259
+   e0, n_Cu_d6          = -0.248
+   e0, n_Cu_d1          = -0.246
+   e0, n_Cu_d7          = -0.242
+   n_CuO_d1, n_Cu_d4    =  0.242
+   n_CuO_d3, n_Cu_d4    =  0.237
+   n_CuO_d1, n_Cu_d5    =  0.235
+   e0, n_Cu_d10         = -0.235
+   n_CuO_d6, n_Cu_d4    =  0.234
+   n_CuO_d9, n_Cu_d4    =  0.233
+   n_CuO_d3, n_Cu_d5    =  0.230
+   n_CuO_d10, n_Cu_d4   =  0.228
+   n_CuO_d6, n_Cu_d5    =  0.228
+   n_CuO_d7, n_Cu_d4    =  0.228
+   n_CuO_d9, n_Cu_d5    =  0.227
+   n_CuO_d8, n_Cu_d4    =  0.227
+   n_CuO_d4, n_Cu_d4    =  0.225
+   n_CuO_d5, n_Cu_d4    =  0.224
+   n_CuO_d5, n_Cu_d5    =  0.223
+   n_CuO_d2, n_Cu_d4    =  0.223
+   n_CuO_d10, n_Cu_d5   =  0.222
+   deltar_Cu_d4, n_Cu_d4 = -0.222
+   n_CuO_d7, n_Cu_d5    =  0.222
+   n_CuO_d8, n_Cu_d5    =  0.221
+   n_CuO_d1, n_Cu_d2    =  0.219
+   n_CuO_d2, n_Cu_d5    =  0.217
+   deltar_Cu_d4, sigma2_Cu =  0.215
+   n_CuO_d3, n_Cu_d3    =  0.214
+   n_CuO_d3, n_Cu_d2    =  0.214
+   n_CuO_d4, n_Cu_d5    =  0.214
+   n_CuO_d1, n_Cu_d3    =  0.213
+   n_CuO_d1, n_Cu_d8    =  0.212
+   n_CuO_d6, n_Cu_d2    =  0.212
+   n_CuO_d9, n_Cu_d2    =  0.211
+   deltar_Cu_d5, n_Cu_d5 = -0.208
+   n_CuO_d2, n_Cu_d2    =  0.208
+   n_CuO_d3, n_Cu_d8    =  0.208
+   n_CuO_d6, n_Cu_d3    =  0.207
+   n_CuO_d10, n_Cu_d2   =  0.206
+   n_CuO_d7, n_Cu_d2    =  0.206
+   n_CuO_d9, n_Cu_d3    =  0.206
+   n_CuO_d6, n_Cu_d8    =  0.205
+   n_CuO_d8, n_Cu_d2    =  0.205
+   n_CuO_d8, n_Cu_d8    =  0.205
+   n_CuO_d9, n_Cu_d8    =  0.205
+   n_CuO_d5, n_Cu_d2    =  0.203
+   n_CuO_d10, n_Cu_d3   =  0.201
+   n_CuO_d7, n_Cu_d3    =  0.201
+   n_CuO_d10, n_Cu_d8   =  0.200
+   deltar_Cu_d5, sigma2_Cu =  0.200
+   n_CuO_d8, n_Cu_d3    =  0.200
+   n_CuO_d7, n_Cu_d8    =  0.200
+   n_CuO_d4, n_Cu_d2    =  0.199
+   n_CuO_d5, n_Cu_d3    =  0.197
+   n_CuO_d2, n_Cu_d3    =  0.197
+   n_CuO_d5, n_Cu_d8    =  0.196
+   n_CuO_d1, n_Cu_d9    =  0.196
+   n_CuO_d2, n_Cu_d8    =  0.196
+   n_CuO_d9, n_Cu_d9    =  0.195
+   n_CuO_d4, n_Cu_d3    =  0.194
+   n_CuO_d4, n_Cu_d8    =  0.193
+   n_CuO_d3, n_Cu_d9    =  0.192
+   n_CuO_d6, n_Cu_d9    =  0.190
+   n_CuO_d1, n_Cu_d1    =  0.187
+   n_CuO_d10, n_Cu_d9   =  0.185
+   n_CuO_d7, n_Cu_d9    =  0.185
+   deltar_Cu_d3, n_Cu_d3 = -0.184
+   n_CuO_d8, n_Cu_d9    =  0.184
+   n_CuO_d5, n_Cu_d9    =  0.181
+   n_CuO_d2, n_Cu_d9    =  0.181
+   n_CuO_d6, n_Cu_d6    =  0.180
+   n_CuO_d1, n_Cu_d6    =  0.179
+   deltar_Cu_d4, n_Cu_d5 = -0.179
+   n_CuO_d4, n_Cu_d9    =  0.178
+   n_CuO_d1, n_Cu_d7    =  0.178
+   deltar_CuO_d3, sigma2_Cu =  0.176
+   deltar_Cu_d8, n_Cu_d8 = -0.176
+   n_CuO_d3, n_Cu_d1    =  0.176
+   n_CuO_d3, n_Cu_d6    =  0.175
+   n_CuO_d7, n_Cu_d7    =  0.175
+   n_CuO_d6, n_Cu_d1    =  0.175
+   n_CuO_d9, n_Cu_d1    =  0.174
+   n_CuO_d3, n_Cu_d7    =  0.174
+   n_CuO_d9, n_Cu_d6    =  0.173
+   n_CuO_d6, n_Cu_d7    =  0.172
+   deltar_Cu_d3, sigma2_Cu =  0.172
+   n_CuO_d9, n_Cu_d7    =  0.171
+   deltar_Cu_d2, n_Cu_d2 = -0.171
+   n_CuO_d10, n_Cu_d1   =  0.170
+   n_CuO_d1, n_Cu_d10   =  0.170
+   deltar_Cu_d5, n_Cu_d4 = -0.170
+   n_CuO_d7, n_Cu_d1    =  0.170
+   n_CuO_d10, n_Cu_d6   =  0.169
+   deltar_CuO_d9, sigma2_Cu =  0.169
+   n_CuO_d8, n_Cu_d1    =  0.169
+   n_CuO_d7, n_Cu_d6    =  0.169
+   deltar_Cu_d4, n_Cu_d2 = -0.168
+   n_CuO_d10, n_Cu_d7   =  0.168
+   n_CuO_d8, n_Cu_d6    =  0.168
+   n_CuO_d8, n_Cu_d7    =  0.166
+   n_CuO_d5, n_Cu_d1    =  0.166
+   deltar_CuO_d8, sigma2_Cu =  0.166
+   n_CuO_d3, n_Cu_d10   =  0.166
+   n_CuO_d2, n_Cu_d1    =  0.166
+   n_CuO_d10, n_Cu_d10  =  0.166
+   deltar_Cu_d4, n_Cu_d3 = -0.166
+   n_CuO_d5, n_Cu_d6    =  0.165
+   n_CuO_d2, n_Cu_d6    =  0.165
+   n_CuO_d6, n_Cu_d10   =  0.165
+   deltar_Cu_d8, sigma2_Cu =  0.164
+   deltar_CuO_d1, sigma2_Cu =  0.164
+   n_CuO_d5, n_Cu_d7    =  0.164
+   n_CuO_d9, n_Cu_d10   =  0.164
+   deltar_Cu_d4, n_Cu_d8 = -0.164
+   n_CuO_d2, n_Cu_d7    =  0.164
+   n_CuO_d4, n_Cu_d1    =  0.163
+   n_CuO_d4, n_Cu_d6    =  0.162
+   deltar_Cu_d2, sigma2_Cu =  0.162
+   deltar_CuO_d5, sigma2_Cu =  0.161
+   deltar_CuO_d4, sigma2_Cu =  0.161
+   n_CuO_d4, n_Cu_d7    =  0.161
+   deltar_Cu_d9, n_Cu_d9 = -0.161
+   n_CuO_d7, n_Cu_d10   =  0.160
+   n_CuO_d8, n_Cu_d10   =  0.159
+   n_CuO_d5, n_Cu_d10   =  0.157
+   n_CuO_d2, n_Cu_d10   =  0.157
+   deltar_Cu_d5, n_Cu_d2 = -0.157
+   deltar_Cu_d5, n_Cu_d3 = -0.154
+   n_CuO_d4, n_Cu_d10   =  0.154
+   deltar_CuO_d3, n_Cu_d4 = -0.154
+   deltar_Cu_d4, n_Cu_d9 = -0.154
+   deltar_Cu_d5, n_Cu_d8 = -0.153
+   deltar_CuO_d7, sigma2_Cu =  0.152
+   deltar_Cu_d4, e0     =  0.152
+   deltar_CuO_d3, n_Cu_d5 = -0.151
+   deltar_CuO_d9, n_Cu_d4 = -0.147
+   deltar_Cu_d9, sigma2_Cu =  0.146
+   deltar_Cu_d3, n_Cu_d4 = -0.146
+   deltar_CuO_d8, n_Cu_d4 = -0.145
+   deltar_Cu_d4, n_Cu_d1 = -0.145
+   deltar_CuO_d9, n_Cu_d5 = -0.145
+   deltar_CuO_d2, sigma2_Cu =  0.144
+   deltar_CuO_d3, n_Cu_d2 = -0.144
+   deltar_Cu_d5, n_Cu_d9 = -0.143
+   deltar_CuO_d1, n_Cu_d4 = -0.143
+   deltar_Cu_d3, n_Cu_d5 = -0.143
+   deltar_Cu_d4, n_Cu_d6 = -0.143
+   deltar_CuO_d8, n_Cu_d5 = -0.142
+   deltar_Cu_d4, n_Cu_d7 = -0.142
+   deltar_CuO_d6, sigma2_Cu =  0.141
+   deltar_CuO_d5, n_Cu_d4 = -0.141
+   deltar_CuO_d1, n_Cu_d5 = -0.141
+   deltar_Cu_d1, n_Cu_d1 = -0.141
+   deltar_Cu_d5, e0     =  0.139
+   deltar_Cu_d8, n_Cu_d4 = -0.139
+   deltar_Cu_d2, n_Cu_d4 = -0.138
+   deltar_CuO_d4, n_Cu_d5 = -0.138
+   deltar_CuO_d9, n_Cu_d2 = -0.138
+   deltar_CuO_d3, n_Cu_d8 = -0.137
+   deltar_Cu_d8, n_Cu_d5 = -0.136
+   deltar_CuO_d10, sigma2_Cu =  0.136
+   deltar_CuO_d8, n_Cu_d2 = -0.136
+   deltar_Cu_d2, n_Cu_d5 = -0.135
+   deltar_Cu_d4, n_Cu_d10 = -0.135
+   deltar_Cu_d5, n_Cu_d1 = -0.135
+   deltar_Cu_d7, n_Cu_d7 = -0.135
+   deltar_CuO_d1, n_Cu_d2 = -0.134
+   deltar_Cu_d3, n_Cu_d2 = -0.134
+   deltar_Cu_d5, n_Cu_d6 = -0.133
+   deltar_CuO_d7, n_Cu_d4 = -0.133
+   deltar_CuO_d9, n_Cu_d3 = -0.133
+   deltar_Cu_d5, n_Cu_d7 = -0.132
+   deltar_CuO_d5, n_Cu_d2 = -0.132
+   deltar_CuO_d4, n_Cu_d2 = -0.132
+   deltar_CuO_d9, n_Cu_d8 = -0.132
+   deltar_CuO_d8, n_Cu_d3 = -0.131
+   deltar_Cu_d3, n_Cu_d8 = -0.131
+   deltar_CuO_d7, n_Cu_d5 = -0.131
+   deltar_CuO_d3, n_CuO_d1 = -0.129
+   deltar_CuO_d1, n_Cu_d3 = -0.129
+   deltar_CuO_d3, n_Cu_d9 = -0.129
+   deltar_Cu_d4, sigma2_CuO = -0.129
+   deltar_Cu_d8, n_Cu_d2 = -0.128
+   deltar_CuO_d1, n_Cu_d8 = -0.128
+   deltar_CuO_d3, n_CuO_d9 = -0.127
+   deltar_CuO_d3, n_CuO_d5 = -0.127
+   deltar_CuO_d5, n_Cu_d3 = -0.127
+   deltar_CuO_d4, n_Cu_d3 = -0.127
+   deltar_CuO_d4, n_Cu_d4 = -0.126
+   deltar_CuO_d3, n_CuO_d4 = -0.126
+   deltar_Cu_d8, n_Cu_d3 = -0.126
+   deltar_CuO_d2, n_Cu_d4 = -0.126
+   deltar_Cu_d5, n_Cu_d10 = -0.126
+   deltar_CuO_d3, n_CuO_d8 = -0.126
+   deltar_Cu_d2, n_Cu_d3 = -0.126
+   deltar_CuO_d5, n_Cu_d8 = -0.126
+   deltar_CuO_d3, n_Cu_d6 = -0.126
+   deltar_CuO_d4, n_Cu_d8 = -0.125
+   deltar_CuO_d1, n_CuO_d3 = -0.125
+   deltar_CuO_d9, n_CuO_d3 = -0.125
+   deltar_CuO_d7, n_Cu_d2 = -0.125
+   deltar_CuO_d3, n_CuO_d6 = -0.124
+   deltar_Cu_d2, n_Cu_d8 = -0.124
+   deltar_CuO_d9, n_CuO_d1 = -0.124
+   deltar_CuO_d2, n_Cu_d5 = -0.124
+   deltar_CuO_d6, n_Cu_d4 = -0.124
+   deltar_CuO_d3, n_Cu_d1 = -0.124
+   deltar_Cu_d9, n_Cu_d4 = -0.124
+   deltar_CuO_d5, n_Cu_d5 = -0.124
+   deltar_CuO_d3, n_CuO_d2 = -0.124
+   deltar_CuO_d5, n_CuO_d3 = -0.123
+   deltar_CuO_d8, n_CuO_d3 = -0.123
+   deltar_Cu_d1, sigma2_Cu =  0.123
+   deltar_CuO_d4, n_CuO_d3 = -0.123
+   deltar_Cu_d3, n_Cu_d9 = -0.123
+   deltar_CuO_d5, n_CuO_d1 = -0.122
+   deltar_CuO_d8, n_CuO_d1 = -0.122
+   deltar_CuO_d3, n_CuO_d10 = -0.122
+   deltar_CuO_d3, n_CuO_d7 = -0.122
+   deltar_CuO_d1, n_CuO_d9 = -0.122
+   deltar_CuO_d1, n_CuO_d5 = -0.122
+   deltar_CuO_d4, n_CuO_d1 = -0.122
+   deltar_CuO_d3, n_Cu_d7 = -0.122
+   deltar_CuO_d9, n_CuO_d5 = -0.122
+   deltar_CuO_d6, n_Cu_d5 = -0.122
+   deltar_CuO_d1, n_CuO_d4 = -0.121
+   deltar_CuO_d8, n_Cu_d9 = -0.121
+   deltar_Cu_d6, n_Cu_d6 = -0.121
+   deltar_Cu_d9, n_Cu_d5 = -0.121
+   deltar_CuO_d9, n_CuO_d4 = -0.121
+   deltar_CuO_d1, n_CuO_d8 = -0.121
+   deltar_CuO_d9, n_CuO_d8 = -0.120
+   deltar_CuO_d5, n_CuO_d9 = -0.120
+   deltar_CuO_d9, n_Cu_d6 = -0.120
+   deltar_CuO_d8, n_CuO_d9 = -0.120
+   deltar_CuO_d8, n_CuO_d5 = -0.120
+   deltar_CuO_d4, n_CuO_d9 = -0.120
+   deltar_CuO_d4, n_CuO_d5 = -0.120
+   deltar_CuO_d7, n_Cu_d3 = -0.120
+   deltar_CuO_d5, n_CuO_d4 = -0.120
+   deltar_CuO_d1, n_Cu_d9 = -0.120
+   deltar_CuO_d8, n_CuO_d4 = -0.119
+   deltar_CuO_d1, n_CuO_d6 = -0.119
+   deltar_Cu_d5, sigma2_CuO = -0.119
+   deltar_CuO_d9, n_CuO_d6 = -0.119
+   deltar_CuO_d5, n_CuO_d8 = -0.119
+   deltar_CuO_d10, n_Cu_d4 = -0.119
+   deltar_CuO_d3, n_Cu_d10 = -0.119
+   deltar_CuO_d7, n_Cu_d8 = -0.119
+   deltar_CuO_d1, n_CuO_d2 = -0.119
+   deltar_Cu_d3, sigma2_CuO = -0.119
+   deltar_CuO_d4, n_CuO_d8 = -0.119
+   deltar_CuO_d8, n_Cu_d6 = -0.118
+   deltar_CuO_d9, n_Cu_d1 = -0.118
+   deltar_CuO_d9, n_CuO_d2 = -0.118
+   deltar_Cu_d3, e0     =  0.118
+   deltar_CuO_d5, n_CuO_d6 = -0.118
+   deltar_CuO_d8, n_CuO_d6 = -0.118
+   deltar_CuO_d5, n_Cu_d9 = -0.118
+   deltar_CuO_d4, n_Cu_d9 = -0.117
+   deltar_CuO_d7, n_CuO_d3 = -0.117
+   deltar_CuO_d1, n_CuO_d10 = -0.117
+   deltar_CuO_d1, n_CuO_d7 = -0.117
+   deltar_CuO_d3, n_Cu_d3 = -0.117
+   deltar_Cu_d8, n_Cu_d9 = -0.117
+   deltar_CuO_d4, n_CuO_d6 = -0.117
+   deltar_CuO_d1, n_Cu_d6 = -0.117
+   deltar_CuO_d9, n_CuO_d10 = -0.117
+   deltar_CuO_d9, n_CuO_d7 = -0.117
+   deltar_CuO_d10, n_Cu_d5 = -0.117
+   deltar_CuO_d5, n_CuO_d2 = -0.117
+   deltar_Cu_d2, n_Cu_d9 = -0.117
+   deltar_CuO_d8, n_CuO_d2 = -0.117
+   deltar_CuO_d7, n_CuO_d1 = -0.117
+   deltar_CuO_d8, n_Cu_d1 = -0.117
+   deltar_CuO_d9, n_Cu_d7 = -0.116
+   deltar_CuO_d4, n_CuO_d2 = -0.116
+   deltar_CuO_d6, n_Cu_d2 = -0.116
+   deltar_Cu_d7, sigma2_Cu =  0.116
+   deltar_CuO_d5, n_CuO_d10 = -0.116
+   deltar_CuO_d2, n_CuO_d3 = -0.116
+   deltar_CuO_d8, n_CuO_d10 = -0.116
+   deltar_CuO_d5, n_CuO_d7 = -0.116
+   deltar_CuO_d8, n_CuO_d7 = -0.115
+   deltar_Cu_d3, n_Cu_d1 = -0.115
+   deltar_CuO_d6, n_CuO_d3 = -0.115
+   deltar_CuO_d4, n_CuO_d10 = -0.115
+   deltar_CuO_d5, n_Cu_d6 = -0.115
+   deltar_CuO_d4, n_CuO_d7 = -0.115
+   deltar_CuO_d4, n_Cu_d6 = -0.115
+   deltar_CuO_d2, n_CuO_d1 = -0.115
+   deltar_CuO_d8, n_Cu_d7 = -0.115
+   deltar_CuO_d7, n_CuO_d9 = -0.115
+   deltar_CuO_d7, n_CuO_d5 = -0.115
+   deltar_CuO_d6, n_CuO_d1 = -0.114
+   deltar_CuO_d7, n_CuO_d4 = -0.114
+   deltar_Cu_d9, n_Cu_d2 = -0.114
+   deltar_CuO_d9, n_Cu_d10 = -0.114
+   deltar_CuO_d2, n_Cu_d3 = -0.114
+   deltar_CuO_d7, n_CuO_d8 = -0.113
+   deltar_Cu_d3, n_Cu_d6 = -0.113
+   deltar_CuO_d1, n_Cu_d7 = -0.113
+   deltar_CuO_d5, n_Cu_d1 = -0.113
+   deltar_Cu_d3, n_Cu_d7 = -0.113
+   deltar_CuO_d4, n_Cu_d1 = -0.113
+   deltar_CuO_d2, n_CuO_d5 = -0.113
+   deltar_CuO_d2, n_CuO_d9 = -0.113
+   deltar_CuO_d2, n_Cu_d8 = -0.113
+   deltar_CuO_d6, n_CuO_d5 = -0.112
+   deltar_CuO_d2, n_CuO_d4 = -0.112
+   deltar_CuO_d6, n_CuO_d9 = -0.112
+   deltar_Cu_d9, n_Cu_d3 = -0.112
+   deltar_CuO_d7, n_CuO_d6 = -0.112
+   deltar_CuO_d6, n_CuO_d4 = -0.112
+   deltar_CuO_d8, n_Cu_d10 = -0.112
+   deltar_CuO_d10, n_Cu_d2 = -0.112
+   deltar_CuO_d2, n_CuO_d8 = -0.112
+   deltar_Cu_d8, e0     =  0.111
+   deltar_CuO_d7, n_CuO_d2 = -0.111
+   deltar_CuO_d6, n_Cu_d3 = -0.111
+   deltar_CuO_d5, n_Cu_d7 = -0.111
+   deltar_CuO_d6, n_CuO_d8 = -0.111
+   deltar_CuO_d4, n_Cu_d7 = -0.111
+   deltar_CuO_d7, n_Cu_d9 = -0.111
+   deltar_Cu_d9, n_Cu_d8 = -0.111
+   deltar_CuO_d1, n_Cu_d10 = -0.111
+   deltar_Cu_d10, n_Cu_d10 = -0.111
+   deltar_CuO_d6, n_Cu_d8 = -0.110
+   deltar_Cu_d8, n_Cu_d1 = -0.110
+   deltar_CuO_d2, n_CuO_d6 = -0.110
+   deltar_Cu_d2, n_Cu_d1 = -0.110
+   deltar_CuO_d7, n_CuO_d10 = -0.110
+   deltar_CuO_d6, n_CuO_d2 = -0.109
+   deltar_Cu_d8, sigma2_CuO = -0.109
+   deltar_CuO_d5, n_Cu_d10 = -0.109
+   deltar_CuO_d7, n_Cu_d6 = -0.109
+   deltar_CuO_d10, n_CuO_d3 = -0.109
+   deltar_CuO_d4, n_Cu_d10 = -0.109
+   deltar_Cu_d8, n_Cu_d6 = -0.108
+   deltar_CuO_d2, n_CuO_d10 = -0.108
+   deltar_Cu_d2, n_Cu_d6 = -0.108
+   deltar_CuO_d2, n_CuO_d7 = -0.108
+   deltar_Cu_d8, n_Cu_d7 = -0.108
+   deltar_CuO_d10, n_CuO_d1 = -0.108
+   deltar_Cu_d2, n_Cu_d7 = -0.108
+   deltar_CuO_d6, n_CuO_d10 = -0.108
+   deltar_CuO_d8, n_Cu_d8 = -0.108
+   deltar_CuO_d6, n_CuO_d7 = -0.108
+   deltar_Cu_d3, n_Cu_d10 = -0.108
+   deltar_CuO_d10, n_Cu_d3 = -0.107
+   deltar_Cu_d6, sigma2_Cu =  0.107
+   deltar_CuO_d7, n_Cu_d1 = -0.107
+   deltar_CuO_d2, n_Cu_d2 = -0.107
+   deltar_CuO_d10, n_CuO_d5 = -0.106
+   deltar_CuO_d10, n_Cu_d8 = -0.106
+   deltar_CuO_d10, n_CuO_d9 = -0.106
+   deltar_CuO_d3, sigma2_CuO = -0.106
+   deltar_CuO_d10, n_CuO_d4 = -0.106
+   deltar_Cu_d2, e0     =  0.105
+   deltar_CuO_d2, n_Cu_d9 = -0.105
+   deltar_CuO_d10, n_CuO_d8 = -0.105
+   deltar_Cu_d1, n_Cu_d4 = -0.104
+   deltar_CuO_d10, n_CuO_d6 = -0.104
+   deltar_CuO_d2, n_Cu_d6 = -0.104
+   deltar_CuO_d6, n_Cu_d9 = -0.103
+   deltar_CuO_d10, n_CuO_d2 = -0.103
+   deltar_Cu_d8, n_Cu_d10 = -0.103
+   deltar_CuO_d7, n_Cu_d10 = -0.103
+   deltar_Cu_d2, n_Cu_d10 = -0.103
+   deltar_Cu_d10, sigma2_Cu =  0.102
+   deltar_Cu_d9, sigma2_CuO = -0.102
+   deltar_Cu_d1, n_Cu_d5 = -0.102
+   deltar_CuO_d10, n_CuO_d7 = -0.102
+   deltar_CuO_d2, n_Cu_d1 = -0.101
+   deltar_CuO_d9, sigma2_CuO = -0.101
+ 
+[[Paths]]
+ dataset 1:
+ = Path 'Cu_2.5562_0' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.14065476 +/- 0.20099999  := 'n_Cu_d1'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.54307605 +/- 0.06728636  := 'reff + deltar_Cu_d1'
+     deltar = -0.01312395 +/- 0.06728636  := 'deltar_Cu_d1'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_1' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.13011187 +/- 0.44062367  := 'n_CuO_d1'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95640181 +/- 0.01150501  := 'reff + deltar_CuO_d1'
+     deltar =  0.00920181 +/- 0.01150501  := 'deltar_CuO_d1'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 2:
+ = Path 'Cu_2.5562_2' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.19391732 +/- 0.24423784  := 'n_Cu_d2'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.53109401 +/- 0.05088086  := 'reff + deltar_Cu_d2'
+     deltar = -0.02510599 +/- 0.05088086  := 'deltar_Cu_d2'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_3' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.03389590 +/- 0.44462608  := 'n_CuO_d2'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95545934 +/- 0.01204481  := 'reff + deltar_CuO_d2'
+     deltar =  0.00825934 +/- 0.01204481  := 'deltar_CuO_d2'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 3:
+ = Path 'Cu_2.5562_4' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.17829489 +/- 0.22406308  := 'n_Cu_d3'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.55328930 +/- 0.05090692  := 'reff + deltar_Cu_d3'
+     deltar = -0.00291070 +/- 0.05090692  := 'deltar_Cu_d3'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_5' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.06180590 +/- 0.42224543  := 'n_CuO_d3'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95852643 +/- 0.01129649  := 'reff + deltar_CuO_d3'
+     deltar =  0.01132643 +/- 0.01129649  := 'deltar_CuO_d3'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 4:
+ = Path 'Cu_2.5562_6' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.24222342 +/- 0.28108442  := 'n_Cu_d4'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.53952147 +/- 0.03986616  := 'reff + deltar_Cu_d4'
+     deltar = -0.01667853 +/- 0.03986616  := 'deltar_Cu_d4'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_7' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.07976170 +/- 0.43510158  := 'n_CuO_d4'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95491285 +/- 0.01162142  := 'reff + deltar_CuO_d4'
+     deltar =  0.00771285 +/- 0.01162142  := 'deltar_CuO_d4'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 5:
+ = Path 'Cu_2.5562_8' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.22229138 +/- 0.26271948  := 'n_Cu_d5'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.53995837 +/- 0.04247975  := 'reff + deltar_Cu_d5'
+     deltar = -0.01624163 +/- 0.04247975  := 'deltar_Cu_d5'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_9' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.04256293 +/- 0.42890296  := 'n_CuO_d5'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95566542 +/- 0.01158051  := 'reff + deltar_CuO_d5'
+     deltar =  0.00846542 +/- 0.01158051  := 'deltar_CuO_d5'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 6:
+ = Path 'Cu_2.5562_10' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.13754443 +/- 0.20262367  := 'n_Cu_d6'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.52594582 +/- 0.07104758  := 'reff + deltar_Cu_d6'
+     deltar = -0.03025418 +/- 0.07104758  := 'deltar_Cu_d6'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_11' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.03742708 +/- 0.44757635  := 'n_CuO_d6'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95600166 +/- 0.01207069  := 'reff + deltar_CuO_d6'
+     deltar =  0.00880166 +/- 0.01207069  := 'deltar_CuO_d6'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 7:
+ = Path 'Cu_2.5562_12' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.14119388 +/- 0.20671107  := 'n_Cu_d7'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.54190166 +/- 0.07020438  := 'reff + deltar_Cu_d7'
+     deltar = -0.01429834 +/- 0.07020438  := 'deltar_Cu_d7'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_13' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.00100191 +/- 0.44619738  := 'n_CuO_d7'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95832279 +/- 0.01223210  := 'reff + deltar_CuO_d7'
+     deltar =  0.01112279 +/- 0.01223210  := 'deltar_CuO_d7'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 8:
+ = Path 'Cu_2.5562_14' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.18221010 +/- 0.23255637  := 'n_Cu_d8'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.54665605 +/- 0.05280068  := 'reff + deltar_Cu_d8'
+     deltar = -0.00954395 +/- 0.05280068  := 'deltar_Cu_d8'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_15' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.02112094 +/- 0.43362424  := 'n_CuO_d8'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95419730 +/- 0.01180975  := 'reff + deltar_CuO_d8'
+     deltar =  0.00699730 +/- 0.01180975  := 'deltar_CuO_d8'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 9:
+ = Path 'Cu_2.5562_16' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.15546916 +/- 0.20988693  := 'n_Cu_d9'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.55029954 +/- 0.05994760  := 'reff + deltar_Cu_d9'
+     deltar = -0.00590046 +/- 0.05994760  := 'deltar_Cu_d9'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_17' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  2.97515969 +/- 0.42424160  := 'n_CuO_d9'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.95505738 +/- 0.01170842  := 'reff + deltar_CuO_d9'
+     deltar =  0.00785738 +/- 0.01170842  := 'deltar_CuO_d9'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+ dataset 10:
+ = Path 'Cu_2.5562_18' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.13422684 +/- 0.20836334  := 'n_Cu_d10'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  2.51663554 +/- 0.07776138  := 'reff + deltar_Cu_d10'
+     deltar = -0.03956446 +/- 0.07776138  := 'deltar_Cu_d10'
+     sigma2 =  0.00100000 +/- 0.00787326  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_19' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.05190611 +/- 0.46428614  := 'n_CuO_d10'
+     n*s02  =  0.91800000
+     e0     = -1.01734220 +/- 1.07879063  := 'e0'
+     r      =  1.94384346 +/- 0.01252822  := 'reff + deltar_CuO_d10'
+     deltar = -0.00335654 +/- 0.01252822  := 'deltar_CuO_d10'
+     sigma2 =  0.00662362 +/- 0.00138308  := 'sigma2_CuO'
+
+=======================================================

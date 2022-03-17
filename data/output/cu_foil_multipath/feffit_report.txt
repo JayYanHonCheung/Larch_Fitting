@@ -1,0 +1,394 @@
+=================== FEFFIT RESULTS ====================
+[[Statistics]]
+   nvarys, npts       =  17, 358
+   n_independent      =  32.513
+   chi_square         =  1433.66337
+   reduced chi_square =  92.4188138
+   r-factor           =  0.00827587
+   Akaike info crit   =  157.104645
+   Bayesian info crit =  182.292357
+ 
+[[Data]]
+   fit space          = 'r'
+   r-range            = 1.000, 6.500
+   k-range            = 3.000, 12.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0002.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0003.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0004.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0005.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0006.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0007.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0008.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0009.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0010.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0011.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0012.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0014.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0015.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0016.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0017.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0018.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0019.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0020.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0021.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0022.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0023.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0024.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0027.dat', 'data/feffs/Cu1_K_c7_Copper_cif11145\\feff0028.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=7.6489e-04, std=0.00107516)
+   epsilon_r          = 0.01075815
+   n_independent      = 32.513
+ 
+[[Variables]]
+   alpha          = -0.00409570 +/-unknown   (init=  0.00000000)
+   e0_s1          =  5.51827138 +/-unknown   (init=  0.10000000)
+   e0_s2          =  3.97150704 +/-unknown   (init=  0.10000000)
+   s02            =  0.91784412 +/-unknown   (init=  1.00000000)
+   sigma2_s1      =  0.00908071 +/-unknown   (init=  0.00800000)
+   sigma2_s10     =  0.00788178 +/-unknown   (init=  0.00800000)
+   sigma2_s11     =  0.01063357 +/-unknown   (init=  0.00800000)
+   sigma2_s12     =  0.01500000 +/-unknown   (init=  0.00800000)
+   sigma2_s13     =  0.00501787 +/-unknown   (init=  0.00800000)
+   sigma2_s2      =  0.01434640 +/-unknown   (init=  0.00800000)
+   sigma2_s3      =  0.01183552 +/-unknown   (init=  0.00800000)
+   sigma2_s4      =  0.01297596 +/-unknown   (init=  0.00800000)
+   sigma2_s5      =  0.01236473 +/-unknown   (init=  0.00800000)
+   sigma2_s6      =  0.00812568 +/-unknown   (init=  0.00800000)
+   sigma2_s7      =  0.01300791 +/-unknown   (init=  0.00800000)
+   sigma2_s8      =  0.00221947 +/-unknown   (init=  0.00800000)
+   sigma2_s9      =  0.01500000 +/-unknown   (init=  0.00800000)
+ 
+[[Correlations]]    (unreported correlations are <  0.100)
+ 
+[[Paths]]
+ = Path 'Cu_2.5562_0' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  =  12.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  5.51827138  := 'e0_s1'
+     r      =  2.54573058  := 'reff + reff*alpha'
+     deltar = -0.01046942  := 'reff*alpha'
+     sigma2 =  0.00908071  := 'sigma2_s1'
+
+ = Path 'Cu_3.615_1' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0002.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  3.6150, -0.0000  1
+     reff   =  3.61500000
+     degen  =  6.00000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  3.60019406  := 'reff + reff*alpha'
+     deltar = -0.01480594  := 'reff*alpha'
+     sigma2 =  0.01434640  := 'sigma2_s2'
+
+ = Path 'Cu_3.8342_2' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0003.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu       1.8075, -0.0000, -1.8075  1
+              Cu       1.8075, -1.8075, -0.0000  1
+     reff   =  3.83420000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  3.81849629  := 'reff + reff*alpha'
+     deltar = -0.01570371  := 'reff*alpha'
+     sigma2 =  0.01183552  := 'sigma2_s3'
+
+ = Path 'Cu_4.3636_3' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0004.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000, -0.0000, -3.6150  1
+              Cu      -0.0000, -1.8075, -1.8075  1
+     reff   =  4.36360000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  4.34572802  := 'reff + reff*alpha'
+     deltar = -0.01787198  := 'reff*alpha'
+     sigma2 =  0.01297596  := 'sigma2_s4'
+
+ = Path 'Cu_4.4274_4' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0005.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -3.6150, -1.8075, -1.8075  1
+     reff   =  4.42740000
+     degen  =  24.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  4.40926672  := 'reff + reff*alpha'
+     deltar = -0.01813328  := 'reff*alpha'
+     sigma2 =  0.01236473  := 'sigma2_s5'
+
+ = Path 'Cu_4.7699_5' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0006.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075,  1.8075, -0.0000  1
+              Cu       1.8075, -0.0000,  1.8075  1
+     reff   =  4.76990000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  4.75036394  := 'reff + reff*alpha'
+     deltar = -0.01953606  := 'reff*alpha'
+     sigma2 =  0.00812568  := 'sigma2_s6'
+
+ = Path 'Cu_4.7699_6' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0007.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu       3.6150, -1.8075,  1.8075  1
+              Cu       1.8075, -1.8075, -0.0000  1
+     reff   =  4.76990000
+     degen  =  96.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  4.75036394  := 'reff + reff*alpha'
+     deltar = -0.01953606  := 'reff*alpha'
+     sigma2 =  0.00812568  := 'sigma2_s6'
+
+ = Path 'Cu_5.1123_7' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0008.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu       3.6150, -0.0000,  3.6150  1
+     reff   =  5.11230000
+     degen  =  12.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.09136158  := 'reff + reff*alpha'
+     deltar = -0.02093842  := 'reff*alpha'
+     sigma2 =  0.01300791  := 'sigma2_s7'
+
+ = Path 'Cu_5.1123_8' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0009.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -1.8075, -0.0000  1
+              Cu       1.8075,  1.8075, -0.0000  1
+     reff   =  5.11230000
+     degen  =  12.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.09136158  := 'reff + reff*alpha'
+     deltar = -0.02093842  := 'reff*alpha'
+     sigma2 =  0.01300791  := 'sigma2_s7'
+
+ = Path 'Cu_5.1123_9' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0010.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  3.6150, -3.6150  1
+              Cu      -0.0000,  1.8075, -1.8075  1
+     reff   =  5.11230000
+     degen  =  24.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.09136158  := 'reff + reff*alpha'
+     deltar = -0.02093842  := 'reff*alpha'
+     sigma2 =  0.01300791  := 'sigma2_s7'
+
+ = Path 'Cu_5.1123_10' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0011.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000, -1.8075,  1.8075  1
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  1.8075, -1.8075  1
+     reff   =  5.11230000
+     degen  =  12.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.09136158  := 'reff + reff*alpha'
+     deltar = -0.02093842  := 'reff*alpha'
+     sigma2 =  0.01300791  := 'sigma2_s7'
+
+ = Path 'Cu_5.1123_11' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0012.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  1.8075,  1.8075  1
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  1.8075,  1.8075  1
+     reff   =  5.11230000
+     degen  =  12.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.09136158  := 'reff + reff*alpha'
+     deltar = -0.02093842  := 'reff*alpha'
+     sigma2 =  0.01300791  := 'sigma2_s7'
+
+ = Path 'Cu_5.1123_12' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0014.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu       1.8075, -0.0000,  1.8075  1
+              Cu       3.6150, -0.0000,  3.6150  1
+              Cu       1.8075, -0.0000,  1.8075  1
+     reff   =  5.11230000
+     degen  =  12.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.09136158  := 'reff + reff*alpha'
+     deltar = -0.02093842  := 'reff*alpha'
+     sigma2 =  0.01300791  := 'sigma2_s7'
+
+ = Path 'Cu_5.1123_13' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0015.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000,  1.8075  1
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  1.8075,  1.8075  1
+     reff   =  5.11230000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.09136158  := 'reff + reff*alpha'
+     deltar = -0.02093842  := 'reff*alpha'
+     sigma2 =  0.01300791  := 'sigma2_s7'
+
+ = Path 'Cu_5.2993_14' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0016.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -3.6150, -1.8075  1
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  5.29930000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.27759568  := 'reff + reff*alpha'
+     deltar = -0.02170432  := 'reff*alpha'
+     sigma2 =  0.00221947  := 'sigma2_s8'
+
+ = Path 'Cu_5.7158_15' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0017.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -5.4224, -0.0000,  1.8075  1
+     reff   =  5.71580000
+     degen  =  24.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.69238983  := 'reff + reff*alpha'
+     deltar = -0.02341017  := 'reff*alpha'
+     sigma2 =  0.01500000  := 'sigma2_s9'
+
+ = Path 'Cu_5.9434_16' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0018.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000, -3.6150, -0.0000  1
+              Cu      -1.8075,  1.8075, -0.0000  1
+     reff   =  5.94340000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.91905765  := 'reff + reff*alpha'
+     deltar = -0.02434235  := 'reff*alpha'
+     sigma2 =  0.00788178  := 'sigma2_s10'
+
+ = Path 'Cu_5.9434_17' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0019.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  5.4224,  1.8075  1
+              Cu      -0.0000,  1.8075,  1.8075  1
+     reff   =  5.94340000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.91905765  := 'reff + reff*alpha'
+     deltar = -0.02434235  := 'reff*alpha'
+     sigma2 =  0.00788178  := 'sigma2_s10'
+
+ = Path 'Cu_5.9434_18' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0020.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000,  5.4224, -1.8075  1
+              Cu      -0.0000,  3.6150, -0.0000  1
+     reff   =  5.94340000
+     degen  =  48.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  5.91905765  := 'reff + reff*alpha'
+     deltar = -0.02434235  := 'reff*alpha'
+     sigma2 =  0.00788178  := 'sigma2_s10'
+
+ = Path 'Cu_6.0479_19' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0021.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -3.6150, -0.0000, -3.6150  1
+              Cu      -0.0000,  1.8075, -1.8075  1
+     reff   =  6.04790000
+     degen  =  96.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  6.02312965  := 'reff + reff*alpha'
+     deltar = -0.02477035  := 'reff*alpha'
+     sigma2 =  0.01063357  := 'sigma2_s11'
+
+ = Path 'Cu_6.0479_20' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0022.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000, -3.6150,  3.6150  1
+              Cu      -1.8075, -3.6150,  1.8075  1
+     reff   =  6.04790000
+     degen  =  96.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  6.02312965  := 'reff + reff*alpha'
+     deltar = -0.02477035  := 'reff*alpha'
+     sigma2 =  0.01063357  := 'sigma2_s11'
+
+ = Path 'Cu_6.0479_21' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0023.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -3.6150,  1.8075  1
+              Cu      -0.0000, -3.6150,  3.6150  1
+              Cu      -0.0000, -1.8075,  1.8075  1
+     reff   =  6.04790000
+     degen  =  96.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  6.02312965  := 'reff + reff*alpha'
+     deltar = -0.02477035  := 'reff*alpha'
+     sigma2 =  0.01063357  := 'sigma2_s11'
+
+ = Path 'Cu_6.0479_22' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0024.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000, -1.8075,  1.8075  1
+              Cu      -0.0000, -3.6150,  3.6150  1
+              Cu      -1.8075, -0.0000,  1.8075  1
+     reff   =  6.04790000
+     degen  =  96.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  6.02312965  := 'reff + reff*alpha'
+     deltar = -0.02477035  := 'reff*alpha'
+     sigma2 =  0.01063357  := 'sigma2_s11'
+
+ = Path 'Cu_6.2613_23' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0027.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu       3.6150, -3.6150,  3.6150  1
+     reff   =  6.26130000
+     degen  =  8.00000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  6.23565562  := 'reff + reff*alpha'
+     deltar = -0.02564438  := 'reff*alpha'
+     sigma2 =  0.01500000  := 'sigma2_s12'
+
+ = Path 'Cu_6.3497_24' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0028.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -0.0000, -1.8075, -5.4224  1
+              Cu       1.8075, -0.0000, -1.8075  1
+     reff   =  6.34970000
+     degen  =  96.0000000
+     n*s02  =  0.91784412  := 's02'
+     e0     =  3.97150704  := 'e0_s2'
+     r      =  6.32369356  := 'reff + reff*alpha'
+     deltar = -0.02600644  := 'reff*alpha'
+     sigma2 =  0.00501787  := 'sigma2_s13'
+
+=======================================================

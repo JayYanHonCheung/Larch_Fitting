@@ -1,0 +1,230 @@
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 319
+    # data points      = 358
+    # variables        = 17
+    chi-square         = 15786.1950
+    reduced chi-square = 46.2938269
+    Akaike info crit   = 1389.51621
+    Bayesian info crit = 1455.48527
+##  Warning: uncertainties could not be estimated:
+    sigma2_s12:          at boundary
+    sigma2_s9:           at boundary
+[[Variables]]
+    alpha:              -0.00409570 (init = 0)
+    e0_s1:               5.51827138 (init = 0.1)
+    e0_s2:               3.97150704 (init = 0.1)
+    s02:                 0.91784412 (init = 1)
+    sigma2_s1:           0.00908071 (init = 0.008)
+    sigma2_s10:          0.00788178 (init = 0.008)
+    sigma2_s11:          0.01063357 (init = 0.008)
+    sigma2_s12:          0.01500000 (init = 0.008)
+    sigma2_s13:          0.00501787 (init = 0.008)
+    sigma2_s2:           0.01434640 (init = 0.008)
+    sigma2_s3:           0.01183552 (init = 0.008)
+    sigma2_s4:           0.01297596 (init = 0.008)
+    sigma2_s5:           0.01236473 (init = 0.008)
+    sigma2_s6:           0.00812568 (init = 0.008)
+    sigma2_s7:           0.01300791 (init = 0.008)
+    sigma2_s8:           0.00221947 (init = 0.008)
+    sigma2_s9:           0.01500000 (init = 0.008)
+    degen_pxstpuoxe6p:   12 (fixed)
+    s02_pxstpuoxe6p:     0.91784412 == 's02'
+    e0_pxstpuoxe6p:      5.51827138 == 'e0_s1'
+    ei_pxstpuoxe6p:      0 (fixed)
+    deltar_pxstpuoxe6p: -0.02600644 == 'reff*alpha'
+    sigma2_pxstpuoxe6p:  0.00908071 == 'sigma2_s1'
+    third_pxstpuoxe6p:   0 (fixed)
+    fourth_pxstpuoxe6p:  0 (fixed)
+    degen_pow2eqewd23:   6 (fixed)
+    s02_pow2eqewd23:     0.91784412 == 's02'
+    e0_pow2eqewd23:      3.97150704 == 'e0_s2'
+    ei_pow2eqewd23:      0 (fixed)
+    deltar_pow2eqewd23: -0.02600644 == 'reff*alpha'
+    sigma2_pow2eqewd23:  0.01434640 == 'sigma2_s2'
+    third_pow2eqewd23:   0 (fixed)
+    fourth_pow2eqewd23:  0 (fixed)
+    degen_pggt7dxxnn6:   48 (fixed)
+    s02_pggt7dxxnn6:     0.91784412 == 's02'
+    e0_pggt7dxxnn6:      3.97150704 == 'e0_s2'
+    ei_pggt7dxxnn6:      0 (fixed)
+    deltar_pggt7dxxnn6: -0.02600644 == 'reff*alpha'
+    sigma2_pggt7dxxnn6:  0.01183552 == 'sigma2_s3'
+    third_pggt7dxxnn6:   0 (fixed)
+    fourth_pggt7dxxnn6:  0 (fixed)
+    degen_pdrzdoqnos3:   48 (fixed)
+    s02_pdrzdoqnos3:     0.91784412 == 's02'
+    e0_pdrzdoqnos3:      3.97150704 == 'e0_s2'
+    ei_pdrzdoqnos3:      0 (fixed)
+    deltar_pdrzdoqnos3: -0.02600644 == 'reff*alpha'
+    sigma2_pdrzdoqnos3:  0.01297596 == 'sigma2_s4'
+    third_pdrzdoqnos3:   0 (fixed)
+    fourth_pdrzdoqnos3:  0 (fixed)
+    degen_pojvlpwdzkl:   24 (fixed)
+    s02_pojvlpwdzkl:     0.91784412 == 's02'
+    e0_pojvlpwdzkl:      3.97150704 == 'e0_s2'
+    ei_pojvlpwdzkl:      0 (fixed)
+    deltar_pojvlpwdzkl: -0.02600644 == 'reff*alpha'
+    sigma2_pojvlpwdzkl:  0.01236473 == 'sigma2_s5'
+    third_pojvlpwdzkl:   0 (fixed)
+    fourth_pojvlpwdzkl:  0 (fixed)
+    degen_poolicsa3cf:   48 (fixed)
+    s02_poolicsa3cf:     0.91784412 == 's02'
+    e0_poolicsa3cf:      3.97150704 == 'e0_s2'
+    ei_poolicsa3cf:      0 (fixed)
+    deltar_poolicsa3cf: -0.02600644 == 'reff*alpha'
+    sigma2_poolicsa3cf:  0.00812568 == 'sigma2_s6'
+    third_poolicsa3cf:   0 (fixed)
+    fourth_poolicsa3cf:  0 (fixed)
+    degen_ptwcyi56dt6:   96 (fixed)
+    s02_ptwcyi56dt6:     0.91784412 == 's02'
+    e0_ptwcyi56dt6:      3.97150704 == 'e0_s2'
+    ei_ptwcyi56dt6:      0 (fixed)
+    deltar_ptwcyi56dt6: -0.02600644 == 'reff*alpha'
+    sigma2_ptwcyi56dt6:  0.00812568 == 'sigma2_s6'
+    third_ptwcyi56dt6:   0 (fixed)
+    fourth_ptwcyi56dt6:  0 (fixed)
+    degen_pt26sq2bwys:   12 (fixed)
+    s02_pt26sq2bwys:     0.91784412 == 's02'
+    e0_pt26sq2bwys:      3.97150704 == 'e0_s2'
+    ei_pt26sq2bwys:      0 (fixed)
+    deltar_pt26sq2bwys: -0.02600644 == 'reff*alpha'
+    sigma2_pt26sq2bwys:  0.01300791 == 'sigma2_s7'
+    third_pt26sq2bwys:   0 (fixed)
+    fourth_pt26sq2bwys:  0 (fixed)
+    degen_pduplsmw73o:   12 (fixed)
+    s02_pduplsmw73o:     0.91784412 == 's02'
+    e0_pduplsmw73o:      3.97150704 == 'e0_s2'
+    ei_pduplsmw73o:      0 (fixed)
+    deltar_pduplsmw73o: -0.02600644 == 'reff*alpha'
+    sigma2_pduplsmw73o:  0.01300791 == 'sigma2_s7'
+    third_pduplsmw73o:   0 (fixed)
+    fourth_pduplsmw73o:  0 (fixed)
+    degen_pm6g7tw6rl4:   24 (fixed)
+    s02_pm6g7tw6rl4:     0.91784412 == 's02'
+    e0_pm6g7tw6rl4:      3.97150704 == 'e0_s2'
+    ei_pm6g7tw6rl4:      0 (fixed)
+    deltar_pm6g7tw6rl4: -0.02600644 == 'reff*alpha'
+    sigma2_pm6g7tw6rl4:  0.01300791 == 'sigma2_s7'
+    third_pm6g7tw6rl4:   0 (fixed)
+    fourth_pm6g7tw6rl4:  0 (fixed)
+    degen_pprqwi4b62q:   12 (fixed)
+    s02_pprqwi4b62q:     0.91784412 == 's02'
+    e0_pprqwi4b62q:      3.97150704 == 'e0_s2'
+    ei_pprqwi4b62q:      0 (fixed)
+    deltar_pprqwi4b62q: -0.02600644 == 'reff*alpha'
+    sigma2_pprqwi4b62q:  0.01300791 == 'sigma2_s7'
+    third_pprqwi4b62q:   0 (fixed)
+    fourth_pprqwi4b62q:  0 (fixed)
+    degen_pwisn7f5jfe:   12 (fixed)
+    s02_pwisn7f5jfe:     0.91784412 == 's02'
+    e0_pwisn7f5jfe:      3.97150704 == 'e0_s2'
+    ei_pwisn7f5jfe:      0 (fixed)
+    deltar_pwisn7f5jfe: -0.02600644 == 'reff*alpha'
+    sigma2_pwisn7f5jfe:  0.01300791 == 'sigma2_s7'
+    third_pwisn7f5jfe:   0 (fixed)
+    fourth_pwisn7f5jfe:  0 (fixed)
+    degen_pt57yacrokd:   12 (fixed)
+    s02_pt57yacrokd:     0.91784412 == 's02'
+    e0_pt57yacrokd:      3.97150704 == 'e0_s2'
+    ei_pt57yacrokd:      0 (fixed)
+    deltar_pt57yacrokd: -0.02600644 == 'reff*alpha'
+    sigma2_pt57yacrokd:  0.01300791 == 'sigma2_s7'
+    third_pt57yacrokd:   0 (fixed)
+    fourth_pt57yacrokd:  0 (fixed)
+    degen_pur2lnggbav:   48 (fixed)
+    s02_pur2lnggbav:     0.91784412 == 's02'
+    e0_pur2lnggbav:      3.97150704 == 'e0_s2'
+    ei_pur2lnggbav:      0 (fixed)
+    deltar_pur2lnggbav: -0.02600644 == 'reff*alpha'
+    sigma2_pur2lnggbav:  0.01300791 == 'sigma2_s7'
+    third_pur2lnggbav:   0 (fixed)
+    fourth_pur2lnggbav:  0 (fixed)
+    degen_pdfyledoikz:   48 (fixed)
+    s02_pdfyledoikz:     0.91784412 == 's02'
+    e0_pdfyledoikz:      3.97150704 == 'e0_s2'
+    ei_pdfyledoikz:      0 (fixed)
+    deltar_pdfyledoikz: -0.02600644 == 'reff*alpha'
+    sigma2_pdfyledoikz:  0.00221947 == 'sigma2_s8'
+    third_pdfyledoikz:   0 (fixed)
+    fourth_pdfyledoikz:  0 (fixed)
+    degen_purib3cljba:   24 (fixed)
+    s02_purib3cljba:     0.91784412 == 's02'
+    e0_purib3cljba:      3.97150704 == 'e0_s2'
+    ei_purib3cljba:      0 (fixed)
+    deltar_purib3cljba: -0.02600644 == 'reff*alpha'
+    sigma2_purib3cljba:  0.01500000 == 'sigma2_s9'
+    third_purib3cljba:   0 (fixed)
+    fourth_purib3cljba:  0 (fixed)
+    degen_p4iculxekmk:   48 (fixed)
+    s02_p4iculxekmk:     0.91784412 == 's02'
+    e0_p4iculxekmk:      3.97150704 == 'e0_s2'
+    ei_p4iculxekmk:      0 (fixed)
+    deltar_p4iculxekmk: -0.02600644 == 'reff*alpha'
+    sigma2_p4iculxekmk:  0.00788178 == 'sigma2_s10'
+    third_p4iculxekmk:   0 (fixed)
+    fourth_p4iculxekmk:  0 (fixed)
+    degen_pq4hu53kye2:   48 (fixed)
+    s02_pq4hu53kye2:     0.91784412 == 's02'
+    e0_pq4hu53kye2:      3.97150704 == 'e0_s2'
+    ei_pq4hu53kye2:      0 (fixed)
+    deltar_pq4hu53kye2: -0.02600644 == 'reff*alpha'
+    sigma2_pq4hu53kye2:  0.00788178 == 'sigma2_s10'
+    third_pq4hu53kye2:   0 (fixed)
+    fourth_pq4hu53kye2:  0 (fixed)
+    degen_pmdhdddnglm:   48 (fixed)
+    s02_pmdhdddnglm:     0.91784412 == 's02'
+    e0_pmdhdddnglm:      3.97150704 == 'e0_s2'
+    ei_pmdhdddnglm:      0 (fixed)
+    deltar_pmdhdddnglm: -0.02600644 == 'reff*alpha'
+    sigma2_pmdhdddnglm:  0.00788178 == 'sigma2_s10'
+    third_pmdhdddnglm:   0 (fixed)
+    fourth_pmdhdddnglm:  0 (fixed)
+    degen_pxu7fdmmjlo:   96 (fixed)
+    s02_pxu7fdmmjlo:     0.91784412 == 's02'
+    e0_pxu7fdmmjlo:      3.97150704 == 'e0_s2'
+    ei_pxu7fdmmjlo:      0 (fixed)
+    deltar_pxu7fdmmjlo: -0.02600644 == 'reff*alpha'
+    sigma2_pxu7fdmmjlo:  0.01063357 == 'sigma2_s11'
+    third_pxu7fdmmjlo:   0 (fixed)
+    fourth_pxu7fdmmjlo:  0 (fixed)
+    degen_pgbhrhn5e5k:   96 (fixed)
+    s02_pgbhrhn5e5k:     0.91784412 == 's02'
+    e0_pgbhrhn5e5k:      3.97150704 == 'e0_s2'
+    ei_pgbhrhn5e5k:      0 (fixed)
+    deltar_pgbhrhn5e5k: -0.02600644 == 'reff*alpha'
+    sigma2_pgbhrhn5e5k:  0.01063357 == 'sigma2_s11'
+    third_pgbhrhn5e5k:   0 (fixed)
+    fourth_pgbhrhn5e5k:  0 (fixed)
+    degen_pk2n7uyxpg2:   96 (fixed)
+    s02_pk2n7uyxpg2:     0.91784412 == 's02'
+    e0_pk2n7uyxpg2:      3.97150704 == 'e0_s2'
+    ei_pk2n7uyxpg2:      0 (fixed)
+    deltar_pk2n7uyxpg2: -0.02600644 == 'reff*alpha'
+    sigma2_pk2n7uyxpg2:  0.01063357 == 'sigma2_s11'
+    third_pk2n7uyxpg2:   0 (fixed)
+    fourth_pk2n7uyxpg2:  0 (fixed)
+    degen_pjdsouegcn6:   96 (fixed)
+    s02_pjdsouegcn6:     0.91784412 == 's02'
+    e0_pjdsouegcn6:      3.97150704 == 'e0_s2'
+    ei_pjdsouegcn6:      0 (fixed)
+    deltar_pjdsouegcn6: -0.02600644 == 'reff*alpha'
+    sigma2_pjdsouegcn6:  0.01063357 == 'sigma2_s11'
+    third_pjdsouegcn6:   0 (fixed)
+    fourth_pjdsouegcn6:  0 (fixed)
+    degen_p7afbnncog7:   8 (fixed)
+    s02_p7afbnncog7:     0.91784412 == 's02'
+    e0_p7afbnncog7:      3.97150704 == 'e0_s2'
+    ei_p7afbnncog7:      0 (fixed)
+    deltar_p7afbnncog7: -0.02600644 == 'reff*alpha'
+    sigma2_p7afbnncog7:  0.01500000 == 'sigma2_s12'
+    third_p7afbnncog7:   0 (fixed)
+    fourth_p7afbnncog7:  0 (fixed)
+    degen_prburfcoo5t:   96 (fixed)
+    s02_prburfcoo5t:     0.91784412 == 's02'
+    e0_prburfcoo5t:      3.97150704 == 'e0_s2'
+    ei_prburfcoo5t:      0 (fixed)
+    deltar_prburfcoo5t: -0.02600644 == 'reff*alpha'
+    sigma2_prburfcoo5t:  0.00501787 == 'sigma2_s13'
+    third_prburfcoo5t:   0 (fixed)
+    fourth_prburfcoo5t:  0 (fixed)

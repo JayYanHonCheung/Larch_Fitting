@@ -1,0 +1,60 @@
+
+======== running Feff module feff8l_ff2x ========
+ Calculating chi...
+ feffdt, feff.pad to feff.dat conversion: Feff8L (EXAFS)      release  0.1
+ Structure from AMSCIFDB, AMS_ID: 11145         Feff8L (EXAFS)       0.1
+ Mineral Name: Copper
+ Journal: Crystal Structures 1, pp. 7-83 (1963)
+ Authors: Wyckoff R W G
+ Title1:  Second edition. Interscience Publishers, New York, New York
+ Title2:  Cubic closest packed, ccp, structure
+ Formula:    Cu
+ SpaceGroup: Fm-3m
+ # sites:    1
+ POT  Non-SCF, core-hole, AFOLP (folp(0)= 1.150)
+ Abs   Z=29 Rmt= 1.451 Rnm= 1.504 K  shell
+ Pot 1 Z=29 Rmt= 1.356 Rnm= 1.393
+ Gam_ch=1.729E+00 H-L exch
+ Mu=-3.774E+00 kf=1.821E+00 Vint=-1.641E+01 Rs_int= 1.991
+ PATH  Rmax= 7.000,  Keep_limit= 0.00, Heap_limit 0.00  Pwcrit= 2.50%
+      36 paths to process
+    path     filename
+       1     feff0001.dat
+       2     feff0002.dat
+       3     feff0003.dat
+       4     feff0004.dat
+       5     feff0005.dat
+       6     feff0006.dat
+       7     feff0007.dat
+       8     feff0008.dat
+       9     feff0009.dat
+      10     feff0010.dat
+      11     feff0011.dat
+      12     feff0012.dat
+      13     feff0014.dat
+      14     feff0015.dat
+      15     feff0016.dat
+      16     feff0017.dat
+      17     feff0018.dat
+      18     feff0019.dat
+      19     feff0020.dat
+      20     feff0021.dat
+      21     feff0022.dat
+      22     feff0023.dat
+      23     feff0024.dat
+      24     feff0027.dat
+      25     feff0028.dat
+      26     feff0029.dat
+      27     feff0030.dat
+      28     feff0031.dat
+      29     feff0032.dat
+      30     feff0033.dat
+      31     feff0034.dat
+      32     feff0035.dat
+      33     feff0036.dat
+      34     feff0037.dat
+      35     feff0040.dat
+      36     feff0043.dat
+    Use all paths with cw amplitude ratio   4.00%
+    S02  1.000  Global sig2  0.00000
+ Done with module 6: DW + final sum over paths.

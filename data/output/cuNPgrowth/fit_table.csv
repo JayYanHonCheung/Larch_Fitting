@@ -1,0 +1,21 @@
+,scatter material,spectra,nlegs,reff,shell,amp ratio,s02,e0,degen,sigma2,deltar,fpath
+0,Cu,spectra_0,2,2.5562,shell,100.0,0.918,e0,n_Cu_d1,sigma2_Cu,deltar_Cu_d1,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+1,CuO,spectra_0,2,1.9472,shell,100.0,0.918,e0,n_CuO_d1,sigma2_CuO,deltar_CuO_d1,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+2,Cu,spectra_1,2,2.5562,shell,100.0,0.918,e0,n_Cu_d2,sigma2_Cu,deltar_Cu_d2,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+3,CuO,spectra_1,2,1.9472,shell,100.0,0.918,e0,n_CuO_d2,sigma2_CuO,deltar_CuO_d2,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+4,Cu,spectra_2,2,2.5562,shell,100.0,0.918,e0,n_Cu_d3,sigma2_Cu,deltar_Cu_d3,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+5,CuO,spectra_2,2,1.9472,shell,100.0,0.918,e0,n_CuO_d3,sigma2_CuO,deltar_CuO_d3,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+6,Cu,spectra_3,2,2.5562,shell,100.0,0.918,e0,n_Cu_d4,sigma2_Cu,deltar_Cu_d4,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+7,CuO,spectra_3,2,1.9472,shell,100.0,0.918,e0,n_CuO_d4,sigma2_CuO,deltar_CuO_d4,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+8,Cu,spectra_4,2,2.5562,shell,100.0,0.918,e0,n_Cu_d5,sigma2_Cu,deltar_Cu_d5,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+9,CuO,spectra_4,2,1.9472,shell,100.0,0.918,e0,n_CuO_d5,sigma2_CuO,deltar_CuO_d5,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+10,Cu,spectra_5,2,2.5562,shell,100.0,0.918,e0,n_Cu_d6,sigma2_Cu,deltar_Cu_d6,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+11,CuO,spectra_5,2,1.9472,shell,100.0,0.918,e0,n_CuO_d6,sigma2_CuO,deltar_CuO_d6,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+12,Cu,spectra_6,2,2.5562,shell,100.0,0.918,e0,n_Cu_d7,sigma2_Cu,deltar_Cu_d7,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+13,CuO,spectra_6,2,1.9472,shell,100.0,0.918,e0,n_CuO_d7,sigma2_CuO,deltar_CuO_d7,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+14,Cu,spectra_7,2,2.5562,shell,100.0,0.918,e0,n_Cu_d8,sigma2_Cu,deltar_Cu_d8,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+15,CuO,spectra_7,2,1.9472,shell,100.0,0.918,e0,n_CuO_d8,sigma2_CuO,deltar_CuO_d8,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+16,Cu,spectra_8,2,2.5562,shell,100.0,0.918,e0,n_Cu_d9,sigma2_Cu,deltar_Cu_d9,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+17,CuO,spectra_8,2,1.9472,shell,100.0,0.918,e0,n_CuO_d9,sigma2_CuO,deltar_CuO_d9,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+18,Cu,spectra_9,2,2.5562,shell,100.0,0.918,e0,n_Cu_d10,sigma2_Cu,deltar_Cu_d10,data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+19,CuO,spectra_9,2,1.9472,shell,100.0,0.918,e0,n_CuO_d10,sigma2_CuO,deltar_CuO_d10,data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
