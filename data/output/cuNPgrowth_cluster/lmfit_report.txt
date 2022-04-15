@@ -1,0 +1,79 @@
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 16249
+    # data points      = 1430
+    # variables        = 47
+    chi-square         = 45534.0955
+    reduced chi-square = 32.9241471
+    Akaike info crit   = 5042.92534
+    Bayesian info crit = 5290.40054
+##  Warning: uncertainties could not be estimated:
+    n_CuO_d11:           at boundary
+    n_CuO_d2:            at boundary
+    n_CuO_d7:            at boundary
+    n_CuO_d9:            at boundary
+    sigma2_Cu:           at boundary
+[[Variables]]
+    deltar_CuO_d1:       0.03471601 (init = 0.1)
+    deltar_CuO_d10:     -0.07116313 (init = 0.1)
+    deltar_CuO_d11:      0.18341375 (init = 0.1)
+    deltar_CuO_d2:       0.17734145 (init = 0.1)
+    deltar_CuO_d3:      -0.09435124 (init = 0.1)
+    deltar_CuO_d4:      -0.10046332 (init = 0.1)
+    deltar_CuO_d5:      -0.10898064 (init = 0.1)
+    deltar_CuO_d6:      -0.06972698 (init = 0.1)
+    deltar_CuO_d7:       0.18036150 (init = 0.1)
+    deltar_CuO_d8:      -0.09551206 (init = 0.1)
+    deltar_CuO_d9:       0.17889472 (init = 0.1)
+    deltar_Cu_d1:        0.20287269 (init = 0.1)
+    deltar_Cu_d10:      -0.04868038 (init = 0.1)
+    deltar_Cu_d11:      -0.03851734 (init = 0.1)
+    deltar_Cu_d2:       -0.03713471 (init = 0.1)
+    deltar_Cu_d3:       -0.03471035 (init = 0.1)
+    deltar_Cu_d4:       -0.03994653 (init = 0.1)
+    deltar_Cu_d5:       -0.04688021 (init = 0.1)
+    deltar_Cu_d6:       -0.09718153 (init = 0.1)
+    deltar_Cu_d7:       -0.03376074 (init = 0.1)
+    deltar_Cu_d8:       -0.03521744 (init = 0.1)
+    deltar_Cu_d9:       -0.03459994 (init = 0.1)
+    e0:                  2.17401917 (init = 0.1)
+    n_CuO_d1:            4.24312802 (init = 1)
+    n_CuO_d10:           3.83948970 (init = 1)
+    n_CuO_d11:          -1.00000000 (init = 1)
+    n_CuO_d2:           -1.00000000 (init = 1)
+    n_CuO_d3:            2.94985965 (init = 1)
+    n_CuO_d4:            2.79704292 (init = 1)
+    n_CuO_d5:            2.71826401 (init = 1)
+    n_CuO_d6:            4.04892278 (init = 1)
+    n_CuO_d7:           -1.00000000 (init = 1)
+    n_CuO_d8:            2.89187330 (init = 1)
+    n_CuO_d9:           -1.00000000 (init = 1)
+    n_Cu_d1:             0.23375931 (init = 1)
+    n_Cu_d10:            0.70883401 (init = 1)
+    n_Cu_d11:            2.53352600 (init = 1)
+    n_Cu_d2:             2.53468868 (init = 1)
+    n_Cu_d3:             1.68786610 (init = 1)
+    n_Cu_d4:             1.69955667 (init = 1)
+    n_Cu_d5:             2.01098563 (init = 1)
+    n_Cu_d6:             0.43584625 (init = 1)
+    n_Cu_d7:             2.88672955 (init = 1)
+    n_Cu_d8:             1.64790624 (init = 1)
+    n_Cu_d9:             2.78476000 (init = 1)
+    sigma2_Cu:           0.01499998 (init = 0.008)
+    sigma2_CuO:          0.01041871 (init = 0.008)
+    degen_pxstpuoxe6p:   0.70883401 == 'n_Cu_d10'
+    s02_pxstpuoxe6p:     0.918 (fixed)
+    e0_pxstpuoxe6p:      2.17401917 == 'e0'
+    ei_pxstpuoxe6p:      0 (fixed)
+    deltar_pxstpuoxe6p: -0.04868038 == 'deltar_Cu_d10'
+    sigma2_pxstpuoxe6p:  0.01499998 == 'sigma2_Cu'
+    third_pxstpuoxe6p:   0 (fixed)
+    fourth_pxstpuoxe6p:  0 (fixed)
+    degen_p2uhikgpj3v:   3.83948970 == 'n_CuO_d10'
+    s02_p2uhikgpj3v:     0.918 (fixed)
+    e0_p2uhikgpj3v:      2.17401917 == 'e0'
+    ei_p2uhikgpj3v:      0 (fixed)
+    deltar_p2uhikgpj3v: -0.07116313 == 'deltar_CuO_d10'
+    sigma2_p2uhikgpj3v:  0.01041871 == 'sigma2_CuO'
+    third_p2uhikgpj3v:   0 (fixed)
+    fourth_p2uhikgpj3v:  0 (fixed)

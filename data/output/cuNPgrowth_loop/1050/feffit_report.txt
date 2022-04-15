@@ -1,0 +1,81 @@
+=================== FEFFIT RESULTS ====================
+[[Statistics]]
+   nvarys, npts       =  7, 130
+   n_independent      =  9.913
+   chi_square         =  44.7025603
+   reduced chi_square =  15.3475868
+   r-factor           =  0.06564174
+   Akaike info crit   =  28.9306359
+   Bayesian info crit =  30.9873369
+ 
+[[Data]]
+   fit space          = 'r'
+   r-range            = 1.000, 3.000
+   k-range            = 3.000, 10.000
+   k window, dk       = 'hanning', 0.500
+   paths used in fit  = ['data/feffs/Cu1_K_c7_Copper_cif11145\\feff0001.dat', 'data/feffs/Cu1_K_c7_Tenorite_cif11639\\feff0001.dat']
+   k-weight           = 2
+   epsilon_k          = Array(mean=0.00441967, std=0.00421574)
+   epsilon_r          = 0.03937825
+   n_independent      = 9.913
+ 
+[[Variables]]
+   deltar_Cu      = -0.02995683 +/- 0.10583829   (init=  0.10000000)
+   deltar_CuO     =  0.00977471 +/- 0.03362282   (init=  0.10000000)
+   e0             = -0.90011968 +/- 4.81652076   (init=  0.10000000)
+   n_Cu           = -0.13919945 +/- 0.82749568   (init=  1.00000000)
+   n_CuO          =  3.06310121 +/- 1.42548399   (init=  1.00000000)
+   sigma2_Cu      =  0.00100000 +/- 0.00726036   (init=  0.00800000)
+   sigma2_CuO     =  0.00678804 +/- 0.00668397   (init=  0.00800000)
+ 
+[[Correlations]]    (unreported correlations are <  0.100)
+   n_Cu, sigma2_Cu      = -0.966
+   n_CuO, sigma2_CuO    =  0.929
+   deltar_CuO, e0       =  0.875
+   sigma2_Cu, sigma2_CuO = -0.566
+   n_Cu, sigma2_CuO     =  0.506
+   n_CuO, sigma2_Cu     = -0.506
+   e0, n_CuO            = -0.496
+   n_Cu, n_CuO          =  0.454
+   deltar_Cu, n_Cu      = -0.413
+   deltar_Cu, sigma2_Cu =  0.409
+   e0, sigma2_CuO       = -0.393
+   e0, sigma2_Cu        =  0.327
+   e0, n_Cu             = -0.320
+   deltar_CuO, n_CuO    = -0.211
+   deltar_Cu, sigma2_CuO = -0.200
+   deltar_Cu, e0        =  0.196
+   deltar_Cu, n_CuO     = -0.194
+   deltar_CuO, n_Cu     = -0.154
+   deltar_CuO, sigma2_Cu =  0.146
+   deltar_CuO, sigma2_CuO = -0.109
+   deltar_Cu, deltar_CuO =  0.103
+ 
+[[Paths]]
+ = Path 'Cu_2.5562_0' = 
+    feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+              Cu      -1.8075, -0.0000, -1.8075  1
+     reff   =  2.55620000
+     degen  = -0.13919945 +/- 0.82749568  := 'n_Cu'
+     n*s02  =  0.91800000
+     e0     = -0.90011968 +/- 4.81652076  := 'e0'
+     r      =  2.52624317 +/- 0.10583829  := 'reff + deltar_Cu'
+     deltar = -0.02995683 +/- 0.10583829  := 'deltar_Cu'
+     sigma2 =  0.00100000 +/- 0.00726036  := 'sigma2_Cu'
+
+ = Path 'CuO_1.9472_0' = 
+    feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
+    geometry  atom      x        y        z      ipot
+              Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
+               O      -1.1474,  1.1389, -1.0854  2
+     reff   =  1.94720000
+     degen  =  3.06310121 +/- 1.42548399  := 'n_CuO'
+     n*s02  =  0.91800000
+     e0     = -0.90011968 +/- 4.81652076  := 'e0'
+     r      =  1.95697471 +/- 0.03362282  := 'reff + deltar_CuO'
+     deltar =  0.00977471 +/- 0.03362282  := 'deltar_CuO'
+     sigma2 =  0.00678804 +/- 0.00668397  := 'sigma2_CuO'
+
+=======================================================
