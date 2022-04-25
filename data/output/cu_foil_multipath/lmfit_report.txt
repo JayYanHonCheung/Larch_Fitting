@@ -1,230 +1,289 @@
 [[Fit Statistics]]
     # fitting method   = leastsq
-    # function evals   = 319
+    # function evals   = 301
     # data points      = 358
     # variables        = 17
     chi-square         = 15786.1950
-    reduced chi-square = 46.2938269
+    reduced chi-square = 46.2938270
     Akaike info crit   = 1389.51621
     Bayesian info crit = 1455.48527
-##  Warning: uncertainties could not be estimated:
-    sigma2_s12:          at boundary
-    sigma2_s9:           at boundary
 [[Variables]]
-    alpha:              -0.00409570 (init = 0)
-    e0_s1:               5.51827138 (init = 0.1)
-    e0_s2:               3.97150704 (init = 0.1)
-    s02:                 0.91784412 (init = 1)
-    sigma2_s1:           0.00908071 (init = 0.008)
-    sigma2_s10:          0.00788178 (init = 0.008)
-    sigma2_s11:          0.01063357 (init = 0.008)
-    sigma2_s12:          0.01500000 (init = 0.008)
-    sigma2_s13:          0.00501787 (init = 0.008)
-    sigma2_s2:           0.01434640 (init = 0.008)
-    sigma2_s3:           0.01183552 (init = 0.008)
-    sigma2_s4:           0.01297596 (init = 0.008)
-    sigma2_s5:           0.01236473 (init = 0.008)
-    sigma2_s6:           0.00812568 (init = 0.008)
-    sigma2_s7:           0.01300791 (init = 0.008)
-    sigma2_s8:           0.00221947 (init = 0.008)
-    sigma2_s9:           0.01500000 (init = 0.008)
+    alpha:              -0.00409574 +/- 0.00157204 (38.38%) (init = 0)
+    e0_s1:               5.51825243 +/- 0.66694085 (12.09%) (init = 0.1)
+    e0_s2:               3.97148806 +/- 0.69364436 (17.47%) (init = 0.1)
+    s02:                 0.91784451 +/- 0.05724268 (6.24%) (init = 1)
+    sigma2_s1:           0.00908071 +/- 5.3444e-04 (5.89%) (init = 0.008)
+    sigma2_s10:          0.00788175 +/- 0.00629846 (79.91%) (init = 0.008)
+    sigma2_s11:          0.01063363 +/- 0.00614029 (57.74%) (init = 0.008)
+    sigma2_s12:          0.01500000 +/- 0.00234909 (15.66%) (init = 0.008)
+    sigma2_s13:          0.00501787 +/- 0.00471074 (93.88%) (init = 0.008)
+    sigma2_s2:           0.01434648 +/- 0.00238020 (16.59%) (init = 0.008)
+    sigma2_s3:           0.01183548 +/- 0.00657546 (55.56%) (init = 0.008)
+    sigma2_s4:           0.01297595 +/- 0.00808693 (62.32%) (init = 0.008)
+    sigma2_s5:           0.01236474 +/- 0.00106286 (8.60%) (init = 0.008)
+    sigma2_s6:           0.00812570 +/- 0.00393042 (48.37%) (init = 0.008)
+    sigma2_s7:           0.01300792 +/- 9.9046e-04 (7.61%) (init = 0.008)
+    sigma2_s8:           0.00221952 +/- 0.00423275 (190.71%) (init = 0.008)
+    sigma2_s9:           0.01500000 +/- 5.9249e-04 (3.95%) (init = 0.008)
     degen_pxstpuoxe6p:   12 (fixed)
-    s02_pxstpuoxe6p:     0.91784412 == 's02'
-    e0_pxstpuoxe6p:      5.51827138 == 'e0_s1'
+    s02_pxstpuoxe6p:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pxstpuoxe6p:      5.51825243 +/- 0.66694085 (12.09%) == 'e0_s1'
     ei_pxstpuoxe6p:      0 (fixed)
-    deltar_pxstpuoxe6p: -0.02600644 == 'reff*alpha'
-    sigma2_pxstpuoxe6p:  0.00908071 == 'sigma2_s1'
+    deltar_pxstpuoxe6p: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pxstpuoxe6p:  0.00908071 +/- 5.3444e-04 (5.89%) == 'sigma2_s1'
     third_pxstpuoxe6p:   0 (fixed)
     fourth_pxstpuoxe6p:  0 (fixed)
     degen_pow2eqewd23:   6 (fixed)
-    s02_pow2eqewd23:     0.91784412 == 's02'
-    e0_pow2eqewd23:      3.97150704 == 'e0_s2'
+    s02_pow2eqewd23:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pow2eqewd23:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pow2eqewd23:      0 (fixed)
-    deltar_pow2eqewd23: -0.02600644 == 'reff*alpha'
-    sigma2_pow2eqewd23:  0.01434640 == 'sigma2_s2'
+    deltar_pow2eqewd23: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pow2eqewd23:  0.01434648 +/- 0.00238020 (16.59%) == 'sigma2_s2'
     third_pow2eqewd23:   0 (fixed)
     fourth_pow2eqewd23:  0 (fixed)
     degen_pggt7dxxnn6:   48 (fixed)
-    s02_pggt7dxxnn6:     0.91784412 == 's02'
-    e0_pggt7dxxnn6:      3.97150704 == 'e0_s2'
+    s02_pggt7dxxnn6:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pggt7dxxnn6:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pggt7dxxnn6:      0 (fixed)
-    deltar_pggt7dxxnn6: -0.02600644 == 'reff*alpha'
-    sigma2_pggt7dxxnn6:  0.01183552 == 'sigma2_s3'
+    deltar_pggt7dxxnn6: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pggt7dxxnn6:  0.01183548 +/- 0.00657546 (55.56%) == 'sigma2_s3'
     third_pggt7dxxnn6:   0 (fixed)
     fourth_pggt7dxxnn6:  0 (fixed)
     degen_pdrzdoqnos3:   48 (fixed)
-    s02_pdrzdoqnos3:     0.91784412 == 's02'
-    e0_pdrzdoqnos3:      3.97150704 == 'e0_s2'
+    s02_pdrzdoqnos3:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pdrzdoqnos3:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pdrzdoqnos3:      0 (fixed)
-    deltar_pdrzdoqnos3: -0.02600644 == 'reff*alpha'
-    sigma2_pdrzdoqnos3:  0.01297596 == 'sigma2_s4'
+    deltar_pdrzdoqnos3: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pdrzdoqnos3:  0.01297595 +/- 0.00808693 (62.32%) == 'sigma2_s4'
     third_pdrzdoqnos3:   0 (fixed)
     fourth_pdrzdoqnos3:  0 (fixed)
     degen_pojvlpwdzkl:   24 (fixed)
-    s02_pojvlpwdzkl:     0.91784412 == 's02'
-    e0_pojvlpwdzkl:      3.97150704 == 'e0_s2'
+    s02_pojvlpwdzkl:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pojvlpwdzkl:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pojvlpwdzkl:      0 (fixed)
-    deltar_pojvlpwdzkl: -0.02600644 == 'reff*alpha'
-    sigma2_pojvlpwdzkl:  0.01236473 == 'sigma2_s5'
+    deltar_pojvlpwdzkl: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pojvlpwdzkl:  0.01236474 +/- 0.00106286 (8.60%) == 'sigma2_s5'
     third_pojvlpwdzkl:   0 (fixed)
     fourth_pojvlpwdzkl:  0 (fixed)
     degen_poolicsa3cf:   48 (fixed)
-    s02_poolicsa3cf:     0.91784412 == 's02'
-    e0_poolicsa3cf:      3.97150704 == 'e0_s2'
+    s02_poolicsa3cf:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_poolicsa3cf:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_poolicsa3cf:      0 (fixed)
-    deltar_poolicsa3cf: -0.02600644 == 'reff*alpha'
-    sigma2_poolicsa3cf:  0.00812568 == 'sigma2_s6'
+    deltar_poolicsa3cf: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_poolicsa3cf:  0.00812570 +/- 0.00393042 (48.37%) == 'sigma2_s6'
     third_poolicsa3cf:   0 (fixed)
     fourth_poolicsa3cf:  0 (fixed)
     degen_ptwcyi56dt6:   96 (fixed)
-    s02_ptwcyi56dt6:     0.91784412 == 's02'
-    e0_ptwcyi56dt6:      3.97150704 == 'e0_s2'
+    s02_ptwcyi56dt6:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_ptwcyi56dt6:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_ptwcyi56dt6:      0 (fixed)
-    deltar_ptwcyi56dt6: -0.02600644 == 'reff*alpha'
-    sigma2_ptwcyi56dt6:  0.00812568 == 'sigma2_s6'
+    deltar_ptwcyi56dt6: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_ptwcyi56dt6:  0.00812570 +/- 0.00393042 (48.37%) == 'sigma2_s6'
     third_ptwcyi56dt6:   0 (fixed)
     fourth_ptwcyi56dt6:  0 (fixed)
     degen_pt26sq2bwys:   12 (fixed)
-    s02_pt26sq2bwys:     0.91784412 == 's02'
-    e0_pt26sq2bwys:      3.97150704 == 'e0_s2'
+    s02_pt26sq2bwys:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pt26sq2bwys:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pt26sq2bwys:      0 (fixed)
-    deltar_pt26sq2bwys: -0.02600644 == 'reff*alpha'
-    sigma2_pt26sq2bwys:  0.01300791 == 'sigma2_s7'
+    deltar_pt26sq2bwys: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pt26sq2bwys:  0.01300792 +/- 9.9046e-04 (7.61%) == 'sigma2_s7'
     third_pt26sq2bwys:   0 (fixed)
     fourth_pt26sq2bwys:  0 (fixed)
     degen_pduplsmw73o:   12 (fixed)
-    s02_pduplsmw73o:     0.91784412 == 's02'
-    e0_pduplsmw73o:      3.97150704 == 'e0_s2'
+    s02_pduplsmw73o:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pduplsmw73o:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pduplsmw73o:      0 (fixed)
-    deltar_pduplsmw73o: -0.02600644 == 'reff*alpha'
-    sigma2_pduplsmw73o:  0.01300791 == 'sigma2_s7'
+    deltar_pduplsmw73o: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pduplsmw73o:  0.01300792 +/- 9.9046e-04 (7.61%) == 'sigma2_s7'
     third_pduplsmw73o:   0 (fixed)
     fourth_pduplsmw73o:  0 (fixed)
     degen_pm6g7tw6rl4:   24 (fixed)
-    s02_pm6g7tw6rl4:     0.91784412 == 's02'
-    e0_pm6g7tw6rl4:      3.97150704 == 'e0_s2'
+    s02_pm6g7tw6rl4:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pm6g7tw6rl4:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pm6g7tw6rl4:      0 (fixed)
-    deltar_pm6g7tw6rl4: -0.02600644 == 'reff*alpha'
-    sigma2_pm6g7tw6rl4:  0.01300791 == 'sigma2_s7'
+    deltar_pm6g7tw6rl4: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pm6g7tw6rl4:  0.01300792 +/- 9.9046e-04 (7.61%) == 'sigma2_s7'
     third_pm6g7tw6rl4:   0 (fixed)
     fourth_pm6g7tw6rl4:  0 (fixed)
     degen_pprqwi4b62q:   12 (fixed)
-    s02_pprqwi4b62q:     0.91784412 == 's02'
-    e0_pprqwi4b62q:      3.97150704 == 'e0_s2'
+    s02_pprqwi4b62q:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pprqwi4b62q:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pprqwi4b62q:      0 (fixed)
-    deltar_pprqwi4b62q: -0.02600644 == 'reff*alpha'
-    sigma2_pprqwi4b62q:  0.01300791 == 'sigma2_s7'
+    deltar_pprqwi4b62q: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pprqwi4b62q:  0.01300792 +/- 9.9046e-04 (7.61%) == 'sigma2_s7'
     third_pprqwi4b62q:   0 (fixed)
     fourth_pprqwi4b62q:  0 (fixed)
     degen_pwisn7f5jfe:   12 (fixed)
-    s02_pwisn7f5jfe:     0.91784412 == 's02'
-    e0_pwisn7f5jfe:      3.97150704 == 'e0_s2'
+    s02_pwisn7f5jfe:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pwisn7f5jfe:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pwisn7f5jfe:      0 (fixed)
-    deltar_pwisn7f5jfe: -0.02600644 == 'reff*alpha'
-    sigma2_pwisn7f5jfe:  0.01300791 == 'sigma2_s7'
+    deltar_pwisn7f5jfe: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pwisn7f5jfe:  0.01300792 +/- 9.9046e-04 (7.61%) == 'sigma2_s7'
     third_pwisn7f5jfe:   0 (fixed)
     fourth_pwisn7f5jfe:  0 (fixed)
     degen_pt57yacrokd:   12 (fixed)
-    s02_pt57yacrokd:     0.91784412 == 's02'
-    e0_pt57yacrokd:      3.97150704 == 'e0_s2'
+    s02_pt57yacrokd:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pt57yacrokd:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pt57yacrokd:      0 (fixed)
-    deltar_pt57yacrokd: -0.02600644 == 'reff*alpha'
-    sigma2_pt57yacrokd:  0.01300791 == 'sigma2_s7'
+    deltar_pt57yacrokd: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pt57yacrokd:  0.01300792 +/- 9.9046e-04 (7.61%) == 'sigma2_s7'
     third_pt57yacrokd:   0 (fixed)
     fourth_pt57yacrokd:  0 (fixed)
     degen_pur2lnggbav:   48 (fixed)
-    s02_pur2lnggbav:     0.91784412 == 's02'
-    e0_pur2lnggbav:      3.97150704 == 'e0_s2'
+    s02_pur2lnggbav:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pur2lnggbav:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pur2lnggbav:      0 (fixed)
-    deltar_pur2lnggbav: -0.02600644 == 'reff*alpha'
-    sigma2_pur2lnggbav:  0.01300791 == 'sigma2_s7'
+    deltar_pur2lnggbav: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pur2lnggbav:  0.01300792 +/- 9.9046e-04 (7.61%) == 'sigma2_s7'
     third_pur2lnggbav:   0 (fixed)
     fourth_pur2lnggbav:  0 (fixed)
     degen_pdfyledoikz:   48 (fixed)
-    s02_pdfyledoikz:     0.91784412 == 's02'
-    e0_pdfyledoikz:      3.97150704 == 'e0_s2'
+    s02_pdfyledoikz:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pdfyledoikz:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pdfyledoikz:      0 (fixed)
-    deltar_pdfyledoikz: -0.02600644 == 'reff*alpha'
-    sigma2_pdfyledoikz:  0.00221947 == 'sigma2_s8'
+    deltar_pdfyledoikz: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pdfyledoikz:  0.00221952 +/- 0.00423275 (190.71%) == 'sigma2_s8'
     third_pdfyledoikz:   0 (fixed)
     fourth_pdfyledoikz:  0 (fixed)
     degen_purib3cljba:   24 (fixed)
-    s02_purib3cljba:     0.91784412 == 's02'
-    e0_purib3cljba:      3.97150704 == 'e0_s2'
+    s02_purib3cljba:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_purib3cljba:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_purib3cljba:      0 (fixed)
-    deltar_purib3cljba: -0.02600644 == 'reff*alpha'
-    sigma2_purib3cljba:  0.01500000 == 'sigma2_s9'
+    deltar_purib3cljba: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_purib3cljba:  0.01500000 +/- 5.9249e-04 (3.95%) == 'sigma2_s9'
     third_purib3cljba:   0 (fixed)
     fourth_purib3cljba:  0 (fixed)
     degen_p4iculxekmk:   48 (fixed)
-    s02_p4iculxekmk:     0.91784412 == 's02'
-    e0_p4iculxekmk:      3.97150704 == 'e0_s2'
+    s02_p4iculxekmk:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_p4iculxekmk:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_p4iculxekmk:      0 (fixed)
-    deltar_p4iculxekmk: -0.02600644 == 'reff*alpha'
-    sigma2_p4iculxekmk:  0.00788178 == 'sigma2_s10'
+    deltar_p4iculxekmk: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_p4iculxekmk:  0.00788175 +/- 0.00629846 (79.91%) == 'sigma2_s10'
     third_p4iculxekmk:   0 (fixed)
     fourth_p4iculxekmk:  0 (fixed)
     degen_pq4hu53kye2:   48 (fixed)
-    s02_pq4hu53kye2:     0.91784412 == 's02'
-    e0_pq4hu53kye2:      3.97150704 == 'e0_s2'
+    s02_pq4hu53kye2:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pq4hu53kye2:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pq4hu53kye2:      0 (fixed)
-    deltar_pq4hu53kye2: -0.02600644 == 'reff*alpha'
-    sigma2_pq4hu53kye2:  0.00788178 == 'sigma2_s10'
+    deltar_pq4hu53kye2: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pq4hu53kye2:  0.00788175 +/- 0.00629846 (79.91%) == 'sigma2_s10'
     third_pq4hu53kye2:   0 (fixed)
     fourth_pq4hu53kye2:  0 (fixed)
     degen_pmdhdddnglm:   48 (fixed)
-    s02_pmdhdddnglm:     0.91784412 == 's02'
-    e0_pmdhdddnglm:      3.97150704 == 'e0_s2'
+    s02_pmdhdddnglm:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pmdhdddnglm:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pmdhdddnglm:      0 (fixed)
-    deltar_pmdhdddnglm: -0.02600644 == 'reff*alpha'
-    sigma2_pmdhdddnglm:  0.00788178 == 'sigma2_s10'
+    deltar_pmdhdddnglm: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pmdhdddnglm:  0.00788175 +/- 0.00629846 (79.91%) == 'sigma2_s10'
     third_pmdhdddnglm:   0 (fixed)
     fourth_pmdhdddnglm:  0 (fixed)
     degen_pxu7fdmmjlo:   96 (fixed)
-    s02_pxu7fdmmjlo:     0.91784412 == 's02'
-    e0_pxu7fdmmjlo:      3.97150704 == 'e0_s2'
+    s02_pxu7fdmmjlo:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pxu7fdmmjlo:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pxu7fdmmjlo:      0 (fixed)
-    deltar_pxu7fdmmjlo: -0.02600644 == 'reff*alpha'
-    sigma2_pxu7fdmmjlo:  0.01063357 == 'sigma2_s11'
+    deltar_pxu7fdmmjlo: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pxu7fdmmjlo:  0.01063363 +/- 0.00614029 (57.74%) == 'sigma2_s11'
     third_pxu7fdmmjlo:   0 (fixed)
     fourth_pxu7fdmmjlo:  0 (fixed)
     degen_pgbhrhn5e5k:   96 (fixed)
-    s02_pgbhrhn5e5k:     0.91784412 == 's02'
-    e0_pgbhrhn5e5k:      3.97150704 == 'e0_s2'
+    s02_pgbhrhn5e5k:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pgbhrhn5e5k:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pgbhrhn5e5k:      0 (fixed)
-    deltar_pgbhrhn5e5k: -0.02600644 == 'reff*alpha'
-    sigma2_pgbhrhn5e5k:  0.01063357 == 'sigma2_s11'
+    deltar_pgbhrhn5e5k: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pgbhrhn5e5k:  0.01063363 +/- 0.00614029 (57.74%) == 'sigma2_s11'
     third_pgbhrhn5e5k:   0 (fixed)
     fourth_pgbhrhn5e5k:  0 (fixed)
     degen_pk2n7uyxpg2:   96 (fixed)
-    s02_pk2n7uyxpg2:     0.91784412 == 's02'
-    e0_pk2n7uyxpg2:      3.97150704 == 'e0_s2'
+    s02_pk2n7uyxpg2:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pk2n7uyxpg2:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pk2n7uyxpg2:      0 (fixed)
-    deltar_pk2n7uyxpg2: -0.02600644 == 'reff*alpha'
-    sigma2_pk2n7uyxpg2:  0.01063357 == 'sigma2_s11'
+    deltar_pk2n7uyxpg2: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pk2n7uyxpg2:  0.01063363 +/- 0.00614029 (57.74%) == 'sigma2_s11'
     third_pk2n7uyxpg2:   0 (fixed)
     fourth_pk2n7uyxpg2:  0 (fixed)
     degen_pjdsouegcn6:   96 (fixed)
-    s02_pjdsouegcn6:     0.91784412 == 's02'
-    e0_pjdsouegcn6:      3.97150704 == 'e0_s2'
+    s02_pjdsouegcn6:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_pjdsouegcn6:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_pjdsouegcn6:      0 (fixed)
-    deltar_pjdsouegcn6: -0.02600644 == 'reff*alpha'
-    sigma2_pjdsouegcn6:  0.01063357 == 'sigma2_s11'
+    deltar_pjdsouegcn6: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_pjdsouegcn6:  0.01063363 +/- 0.00614029 (57.74%) == 'sigma2_s11'
     third_pjdsouegcn6:   0 (fixed)
     fourth_pjdsouegcn6:  0 (fixed)
     degen_p7afbnncog7:   8 (fixed)
-    s02_p7afbnncog7:     0.91784412 == 's02'
-    e0_p7afbnncog7:      3.97150704 == 'e0_s2'
+    s02_p7afbnncog7:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_p7afbnncog7:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_p7afbnncog7:      0 (fixed)
-    deltar_p7afbnncog7: -0.02600644 == 'reff*alpha'
-    sigma2_p7afbnncog7:  0.01500000 == 'sigma2_s12'
+    deltar_p7afbnncog7: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_p7afbnncog7:  0.01500000 +/- 0.00234909 (15.66%) == 'sigma2_s12'
     third_p7afbnncog7:   0 (fixed)
     fourth_p7afbnncog7:  0 (fixed)
     degen_prburfcoo5t:   96 (fixed)
-    s02_prburfcoo5t:     0.91784412 == 's02'
-    e0_prburfcoo5t:      3.97150704 == 'e0_s2'
+    s02_prburfcoo5t:     0.91784451 +/- 0.05724268 (6.24%) == 's02'
+    e0_prburfcoo5t:      3.97148806 +/- 0.69364436 (17.47%) == 'e0_s2'
     ei_prburfcoo5t:      0 (fixed)
-    deltar_prburfcoo5t: -0.02600644 == 'reff*alpha'
-    sigma2_prburfcoo5t:  0.00501787 == 'sigma2_s13'
+    deltar_prburfcoo5t: -0.02600671 +/- 0.00998201 (38.38%) == 'reff*alpha'
+    sigma2_prburfcoo5t:  0.00501787 +/- 0.00471074 (93.88%) == 'sigma2_s13'
     third_prburfcoo5t:   0 (fixed)
     fourth_prburfcoo5t:  0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(s02, sigma2_s1)         = 0.911
+    C(alpha, e0_s1)           = 0.892
+    C(sigma2_s10, sigma2_s12) = -0.623
+    C(alpha, e0_s2)           = 0.608
+    C(e0_s1, e0_s2)           = 0.568
+    C(sigma2_s10, sigma2_s11) = -0.562
+    C(sigma2_s11, sigma2_s12) = 0.537
+    C(s02, sigma2_s5)         = 0.500
+    C(s02, sigma2_s7)         = 0.486
+    C(sigma2_s1, sigma2_s5)   = 0.447
+    C(sigma2_s1, sigma2_s7)   = 0.436
+    C(sigma2_s12, sigma2_s13) = -0.409
+    C(sigma2_s3, sigma2_s4)   = -0.402
+    C(sigma2_s5, sigma2_s7)   = 0.383
+    C(alpha, sigma2_s8)       = 0.379
+    C(sigma2_s5, sigma2_s6)   = 0.378
+    C(sigma2_s4, sigma2_s5)   = -0.354
+    C(sigma2_s10, sigma2_s13) = 0.342
+    C(e0_s1, sigma2_s8)       = 0.314
+    C(sigma2_s11, sigma2_s6)  = 0.313
+    C(alpha, sigma2_s6)       = 0.293
+    C(s02, sigma2_s2)         = 0.275
+    C(sigma2_s4, sigma2_s8)   = 0.261
+    C(sigma2_s1, sigma2_s2)   = 0.254
+    C(sigma2_s10, sigma2_s8)  = 0.250
+    C(e0_s2, sigma2_s4)       = -0.249
+    C(e0_s1, sigma2_s6)       = 0.240
+    C(s02, sigma2_s9)         = 0.221
+    C(sigma2_s1, sigma2_s9)   = 0.220
+    C(e0_s2, sigma2_s11)      = -0.219
+    C(sigma2_s5, sigma2_s8)   = -0.208
+    C(e0_s2, sigma2_s6)       = -0.205
+    C(e0_s2, sigma2_s9)       = 0.199
+    C(s02, sigma2_s11)        = 0.194
+    C(s02, sigma2_s6)         = 0.192
+    C(sigma2_s13, sigma2_s8)  = 0.190
+    C(sigma2_s4, sigma2_s6)   = -0.180
+    C(alpha, s02)             = 0.179
+    C(sigma2_s1, sigma2_s11)  = 0.179
+    C(sigma2_s7, sigma2_s8)   = -0.175
+    C(alpha, sigma2_s1)       = 0.175
+    C(s02, sigma2_s8)         = 0.172
+    C(sigma2_s3, sigma2_s5)   = 0.164
+    C(sigma2_s1, sigma2_s6)   = 0.164
+    C(sigma2_s12, sigma2_s6)  = 0.163
+    C(sigma2_s2, sigma2_s6)   = 0.162
+    C(sigma2_s1, sigma2_s8)   = 0.161
+    C(e0_s2, sigma2_s3)       = 0.154
+    C(sigma2_s2, sigma2_s5)   = 0.148
+    C(sigma2_s2, sigma2_s4)   = -0.144
+    C(sigma2_s10, sigma2_s6)  = -0.140
+    C(sigma2_s11, sigma2_s9)  = 0.139
+    C(sigma2_s5, sigma2_s9)   = 0.138
+    C(e0_s1, sigma2_s3)       = 0.137
+    C(sigma2_s2, sigma2_s7)   = 0.125
+    C(sigma2_s12, sigma2_s9)  = -0.124
+    C(e0_s2, sigma2_s5)       = 0.122
+    C(alpha, sigma2_s11)      = 0.120
+    C(e0_s2, sigma2_s12)      = -0.116
+    C(e0_s1, sigma2_s7)       = -0.112
+    C(sigma2_s11, sigma2_s2)  = 0.110

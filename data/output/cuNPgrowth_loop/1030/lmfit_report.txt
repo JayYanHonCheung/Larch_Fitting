@@ -1,34 +1,34 @@
 [[Fit Statistics]]
     # fitting method   = leastsq
-    # function evals   = 181
+    # function evals   = 94
     # data points      = 130
     # variables        = 7
-    chi-square         = 708.796047
-    reduced chi-square = 5.76256949
-    Akaike info crit   = 234.484338
-    Bayesian info crit = 254.557079
+    chi-square         = 708.796050
+    reduced chi-square = 5.76256952
+    Akaike info crit   = 234.484339
+    Bayesian info crit = 254.557080
 [[Variables]]
-    deltar_Cu:           0.16264128 +/- 0.09823433 (60.40%) (init = 0.1)
-    deltar_CuO:          0.00906216 +/- 0.03145772 (347.13%) (init = 0.1)
-    e0:                 -0.37517654 +/- 4.64410149 (1237.84%) (init = 0.1)
-    n_Cu:                0.19497544 +/- 0.96434546 (494.60%) (init = 1)
-    n_CuO:               2.56316394 +/- 1.04393653 (40.73%) (init = 1)
-    sigma2_Cu:           0.00100000 +/- 0.00258806 (258.81%) (init = 0.008)
-    sigma2_CuO:          0.00396949 +/- 0.00524331 (132.09%) (init = 0.008)
-    degen_pxstpuoxe6p:   0.19497544 +/- 0.96434546 (494.60%) == 'n_Cu'
+    deltar_Cu:           0.16263612 +/- 0.09820620 (60.38%) (init = 0.1)
+    deltar_CuO:          0.00905564 +/- 0.03146102 (347.42%) (init = 0.1)
+    e0:                 -0.37633627 +/- 4.64434887 (1234.10%) (init = 0.1)
+    n_Cu:                0.19500267 +/- 0.96419951 (494.45%) (init = 0.2354107)
+    n_CuO:               2.56347304 +/- 1.04424864 (40.74%) (init = 2.672518)
+    sigma2_Cu:           0.00100000 +/- 0.01827087 (1827.09%) (init = 0.008)
+    sigma2_CuO:          0.00397106 +/- 0.00524309 (132.03%) (init = 0.008)
+    degen_pxstpuoxe6p:   0.19500267 +/- 0.96419951 (494.45%) == 'n_Cu'
     s02_pxstpuoxe6p:     0.918 (fixed)
-    e0_pxstpuoxe6p:     -0.37517654 +/- 4.64410149 (1237.84%) == 'e0'
+    e0_pxstpuoxe6p:     -0.37633627 +/- 4.64434886 (1234.10%) == 'e0'
     ei_pxstpuoxe6p:      0 (fixed)
-    deltar_pxstpuoxe6p:  0.16264128 +/- 0.09823433 (60.40%) == 'deltar_Cu'
-    sigma2_pxstpuoxe6p:  0.00100000 +/- 0.00258806 (258.81%) == 'sigma2_Cu'
+    deltar_pxstpuoxe6p:  0.16263612 +/- 0.09820620 (60.38%) == 'deltar_Cu'
+    sigma2_pxstpuoxe6p:  0.00100000 +/- 0.01827087 (1827.09%) == 'sigma2_Cu'
     third_pxstpuoxe6p:   0 (fixed)
     fourth_pxstpuoxe6p:  0 (fixed)
-    degen_p2uhikgpj3v:   2.56316394 +/- 1.04393653 (40.73%) == 'n_CuO'
+    degen_p2uhikgpj3v:   2.56347304 +/- 1.04424864 (40.74%) == 'n_CuO'
     s02_p2uhikgpj3v:     0.918 (fixed)
-    e0_p2uhikgpj3v:     -0.37517654 +/- 4.64410149 (1237.84%) == 'e0'
+    e0_p2uhikgpj3v:     -0.37633627 +/- 4.64434886 (1234.10%) == 'e0'
     ei_p2uhikgpj3v:      0 (fixed)
-    deltar_p2uhikgpj3v:  0.00906216 +/- 0.03145772 (347.13%) == 'deltar_CuO'
-    sigma2_p2uhikgpj3v:  0.00396949 +/- 0.00524331 (132.09%) == 'sigma2_CuO'
+    deltar_p2uhikgpj3v:  0.00905564 +/- 0.03146102 (347.42%) == 'deltar_CuO'
+    sigma2_p2uhikgpj3v:  0.00397106 +/- 0.00524309 (132.03%) == 'sigma2_CuO'
     third_p2uhikgpj3v:   0 (fixed)
     fourth_p2uhikgpj3v:  0 (fixed)
 [[Correlations]] (unreported correlations are < 0.100)

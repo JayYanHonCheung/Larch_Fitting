@@ -3,7 +3,7 @@
    nvarys, npts       =  17, 358
    n_independent      =  32.513
    chi_square         =  1433.66337
-   reduced chi_square =  92.4188138
+   reduced chi_square =  92.4188141
    r-factor           =  0.00827587
    Akaike info crit   =  157.104645
    Bayesian info crit =  182.292357
@@ -20,25 +20,86 @@
    n_independent      = 32.513
  
 [[Variables]]
-   alpha          = -0.00409570 +/-unknown   (init=  0.00000000)
-   e0_s1          =  5.51827138 +/-unknown   (init=  0.10000000)
-   e0_s2          =  3.97150704 +/-unknown   (init=  0.10000000)
-   s02            =  0.91784412 +/-unknown   (init=  1.00000000)
-   sigma2_s1      =  0.00908071 +/-unknown   (init=  0.00800000)
-   sigma2_s10     =  0.00788178 +/-unknown   (init=  0.00800000)
-   sigma2_s11     =  0.01063357 +/-unknown   (init=  0.00800000)
-   sigma2_s12     =  0.01500000 +/-unknown   (init=  0.00800000)
-   sigma2_s13     =  0.00501787 +/-unknown   (init=  0.00800000)
-   sigma2_s2      =  0.01434640 +/-unknown   (init=  0.00800000)
-   sigma2_s3      =  0.01183552 +/-unknown   (init=  0.00800000)
-   sigma2_s4      =  0.01297596 +/-unknown   (init=  0.00800000)
-   sigma2_s5      =  0.01236473 +/-unknown   (init=  0.00800000)
-   sigma2_s6      =  0.00812568 +/-unknown   (init=  0.00800000)
-   sigma2_s7      =  0.01300791 +/-unknown   (init=  0.00800000)
-   sigma2_s8      =  0.00221947 +/-unknown   (init=  0.00800000)
-   sigma2_s9      =  0.01500000 +/-unknown   (init=  0.00800000)
+   alpha          = -0.00409574 +/- 0.00157204   (init=  0.00000000)
+   e0_s1          =  5.51825243 +/- 0.66694085   (init=  0.10000000)
+   e0_s2          =  3.97148806 +/- 0.69364436   (init=  0.10000000)
+   s02            =  0.91784451 +/- 0.05724268   (init=  1.00000000)
+   sigma2_s1      =  0.00908071 +/- 5.3444e-04   (init=  0.00800000)
+   sigma2_s10     =  0.00788175 +/- 0.00629846   (init=  0.00800000)
+   sigma2_s11     =  0.01063363 +/- 0.00614029   (init=  0.00800000)
+   sigma2_s12     =  0.01500000 +/- 0.00234909   (init=  0.00800000)
+   sigma2_s13     =  0.00501787 +/- 0.00471074   (init=  0.00800000)
+   sigma2_s2      =  0.01434648 +/- 0.00238020   (init=  0.00800000)
+   sigma2_s3      =  0.01183548 +/- 0.00657546   (init=  0.00800000)
+   sigma2_s4      =  0.01297595 +/- 0.00808693   (init=  0.00800000)
+   sigma2_s5      =  0.01236474 +/- 0.00106286   (init=  0.00800000)
+   sigma2_s6      =  0.00812570 +/- 0.00393042   (init=  0.00800000)
+   sigma2_s7      =  0.01300792 +/- 9.9046e-04   (init=  0.00800000)
+   sigma2_s8      =  0.00221952 +/- 0.00423275   (init=  0.00800000)
+   sigma2_s9      =  0.01500000 +/- 5.9249e-04   (init=  0.00800000)
  
 [[Correlations]]    (unreported correlations are <  0.100)
+   s02, sigma2_s1       =  0.911
+   alpha, e0_s1         =  0.892
+   sigma2_s10, sigma2_s12 = -0.623
+   alpha, e0_s2         =  0.608
+   e0_s1, e0_s2         =  0.568
+   sigma2_s10, sigma2_s11 = -0.562
+   sigma2_s11, sigma2_s12 =  0.537
+   s02, sigma2_s5       =  0.500
+   s02, sigma2_s7       =  0.486
+   sigma2_s1, sigma2_s5 =  0.447
+   sigma2_s1, sigma2_s7 =  0.436
+   sigma2_s12, sigma2_s13 = -0.409
+   sigma2_s3, sigma2_s4 = -0.402
+   sigma2_s5, sigma2_s7 =  0.383
+   alpha, sigma2_s8     =  0.379
+   sigma2_s5, sigma2_s6 =  0.378
+   sigma2_s4, sigma2_s5 = -0.354
+   sigma2_s10, sigma2_s13 =  0.342
+   e0_s1, sigma2_s8     =  0.314
+   sigma2_s11, sigma2_s6 =  0.313
+   alpha, sigma2_s6     =  0.293
+   s02, sigma2_s2       =  0.275
+   sigma2_s4, sigma2_s8 =  0.261
+   sigma2_s1, sigma2_s2 =  0.254
+   sigma2_s10, sigma2_s8 =  0.250
+   e0_s2, sigma2_s4     = -0.249
+   e0_s1, sigma2_s6     =  0.240
+   s02, sigma2_s9       =  0.221
+   sigma2_s1, sigma2_s9 =  0.220
+   e0_s2, sigma2_s11    = -0.219
+   sigma2_s5, sigma2_s8 = -0.208
+   e0_s2, sigma2_s6     = -0.205
+   e0_s2, sigma2_s9     =  0.199
+   s02, sigma2_s11      =  0.194
+   s02, sigma2_s6       =  0.192
+   sigma2_s13, sigma2_s8 =  0.190
+   sigma2_s4, sigma2_s6 = -0.180
+   alpha, s02           =  0.179
+   sigma2_s1, sigma2_s11 =  0.179
+   sigma2_s7, sigma2_s8 = -0.175
+   alpha, sigma2_s1     =  0.175
+   s02, sigma2_s8       =  0.172
+   sigma2_s3, sigma2_s5 =  0.164
+   sigma2_s1, sigma2_s6 =  0.164
+   sigma2_s12, sigma2_s6 =  0.163
+   sigma2_s2, sigma2_s6 =  0.162
+   sigma2_s1, sigma2_s8 =  0.161
+   e0_s2, sigma2_s3     =  0.154
+   sigma2_s2, sigma2_s5 =  0.148
+   sigma2_s2, sigma2_s4 = -0.144
+   sigma2_s10, sigma2_s6 = -0.140
+   sigma2_s11, sigma2_s9 =  0.139
+   sigma2_s5, sigma2_s9 =  0.138
+   e0_s1, sigma2_s3     =  0.137
+   sigma2_s2, sigma2_s7 =  0.125
+   sigma2_s12, sigma2_s9 = -0.124
+   e0_s2, sigma2_s5     =  0.122
+   alpha, sigma2_s11    =  0.120
+   e0_s2, sigma2_s12    = -0.116
+   e0_s1, sigma2_s7     = -0.112
+   sigma2_s11, sigma2_s2 =  0.110
  
 [[Paths]]
  = Path 'Cu_2.5562_0' = 
@@ -48,11 +109,11 @@
               Cu      -1.8075, -0.0000, -1.8075  1
      reff   =  2.55620000
      degen  =  12.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  5.51827138  := 'e0_s1'
-     r      =  2.54573058  := 'reff + reff*alpha'
-     deltar = -0.01046942  := 'reff*alpha'
-     sigma2 =  0.00908071  := 'sigma2_s1'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  5.51825243 +/- 0.66694085  := 'e0_s1'
+     r      =  2.54573047 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.01046953 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00908071 +/- 5.3444e-04  := 'sigma2_s1'
 
  = Path 'Cu_3.615_1' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0002.dat
@@ -61,11 +122,11 @@
               Cu      -0.0000,  3.6150, -0.0000  1
      reff   =  3.61500000
      degen  =  6.00000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  3.60019406  := 'reff + reff*alpha'
-     deltar = -0.01480594  := 'reff*alpha'
-     sigma2 =  0.01434640  := 'sigma2_s2'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  3.60019391 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.01480609 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01434648 +/- 0.00238020  := 'sigma2_s2'
 
  = Path 'Cu_3.8342_2' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0003.dat
@@ -75,11 +136,11 @@
               Cu       1.8075, -1.8075, -0.0000  1
      reff   =  3.83420000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  3.81849629  := 'reff + reff*alpha'
-     deltar = -0.01570371  := 'reff*alpha'
-     sigma2 =  0.01183552  := 'sigma2_s3'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  3.81849612 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.01570388 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01183548 +/- 0.00657546  := 'sigma2_s3'
 
  = Path 'Cu_4.3636_3' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0004.dat
@@ -89,11 +150,11 @@
               Cu      -0.0000, -1.8075, -1.8075  1
      reff   =  4.36360000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  4.34572802  := 'reff + reff*alpha'
-     deltar = -0.01787198  := 'reff*alpha'
-     sigma2 =  0.01297596  := 'sigma2_s4'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  4.34572784 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.01787216 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01297595 +/- 0.00808693  := 'sigma2_s4'
 
  = Path 'Cu_4.4274_4' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0005.dat
@@ -102,11 +163,11 @@
               Cu      -3.6150, -1.8075, -1.8075  1
      reff   =  4.42740000
      degen  =  24.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  4.40926672  := 'reff + reff*alpha'
-     deltar = -0.01813328  := 'reff*alpha'
-     sigma2 =  0.01236473  := 'sigma2_s5'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  4.40926653 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.01813347 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01236474 +/- 0.00106286  := 'sigma2_s5'
 
  = Path 'Cu_4.7699_5' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0006.dat
@@ -116,11 +177,11 @@
               Cu       1.8075, -0.0000,  1.8075  1
      reff   =  4.76990000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  4.75036394  := 'reff + reff*alpha'
-     deltar = -0.01953606  := 'reff*alpha'
-     sigma2 =  0.00812568  := 'sigma2_s6'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  4.75036374 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.01953626 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00812570 +/- 0.00393042  := 'sigma2_s6'
 
  = Path 'Cu_4.7699_6' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0007.dat
@@ -130,11 +191,11 @@
               Cu       1.8075, -1.8075, -0.0000  1
      reff   =  4.76990000
      degen  =  96.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  4.75036394  := 'reff + reff*alpha'
-     deltar = -0.01953606  := 'reff*alpha'
-     sigma2 =  0.00812568  := 'sigma2_s6'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  4.75036374 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.01953626 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00812570 +/- 0.00393042  := 'sigma2_s6'
 
  = Path 'Cu_5.1123_7' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0008.dat
@@ -143,11 +204,11 @@
               Cu       3.6150, -0.0000,  3.6150  1
      reff   =  5.11230000
      degen  =  12.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.09136158  := 'reff + reff*alpha'
-     deltar = -0.02093842  := 'reff*alpha'
-     sigma2 =  0.01300791  := 'sigma2_s7'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.09136136 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02093864 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01300792 +/- 9.9046e-04  := 'sigma2_s7'
 
  = Path 'Cu_5.1123_8' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0009.dat
@@ -157,11 +218,11 @@
               Cu       1.8075,  1.8075, -0.0000  1
      reff   =  5.11230000
      degen  =  12.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.09136158  := 'reff + reff*alpha'
-     deltar = -0.02093842  := 'reff*alpha'
-     sigma2 =  0.01300791  := 'sigma2_s7'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.09136136 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02093864 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01300792 +/- 9.9046e-04  := 'sigma2_s7'
 
  = Path 'Cu_5.1123_9' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0010.dat
@@ -171,11 +232,11 @@
               Cu      -0.0000,  1.8075, -1.8075  1
      reff   =  5.11230000
      degen  =  24.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.09136158  := 'reff + reff*alpha'
-     deltar = -0.02093842  := 'reff*alpha'
-     sigma2 =  0.01300791  := 'sigma2_s7'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.09136136 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02093864 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01300792 +/- 9.9046e-04  := 'sigma2_s7'
 
  = Path 'Cu_5.1123_10' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0011.dat
@@ -186,11 +247,11 @@
               Cu      -0.0000,  1.8075, -1.8075  1
      reff   =  5.11230000
      degen  =  12.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.09136158  := 'reff + reff*alpha'
-     deltar = -0.02093842  := 'reff*alpha'
-     sigma2 =  0.01300791  := 'sigma2_s7'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.09136136 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02093864 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01300792 +/- 9.9046e-04  := 'sigma2_s7'
 
  = Path 'Cu_5.1123_11' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0012.dat
@@ -201,11 +262,11 @@
               Cu      -0.0000,  1.8075,  1.8075  1
      reff   =  5.11230000
      degen  =  12.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.09136158  := 'reff + reff*alpha'
-     deltar = -0.02093842  := 'reff*alpha'
-     sigma2 =  0.01300791  := 'sigma2_s7'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.09136136 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02093864 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01300792 +/- 9.9046e-04  := 'sigma2_s7'
 
  = Path 'Cu_5.1123_12' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0014.dat
@@ -216,11 +277,11 @@
               Cu       1.8075, -0.0000,  1.8075  1
      reff   =  5.11230000
      degen  =  12.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.09136158  := 'reff + reff*alpha'
-     deltar = -0.02093842  := 'reff*alpha'
-     sigma2 =  0.01300791  := 'sigma2_s7'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.09136136 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02093864 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01300792 +/- 9.9046e-04  := 'sigma2_s7'
 
  = Path 'Cu_5.1123_13' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0015.dat
@@ -231,11 +292,11 @@
               Cu      -0.0000,  1.8075,  1.8075  1
      reff   =  5.11230000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.09136158  := 'reff + reff*alpha'
-     deltar = -0.02093842  := 'reff*alpha'
-     sigma2 =  0.01300791  := 'sigma2_s7'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.09136136 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02093864 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01300792 +/- 9.9046e-04  := 'sigma2_s7'
 
  = Path 'Cu_5.2993_14' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0016.dat
@@ -245,11 +306,11 @@
               Cu      -1.8075, -0.0000, -1.8075  1
      reff   =  5.29930000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.27759568  := 'reff + reff*alpha'
-     deltar = -0.02170432  := 'reff*alpha'
-     sigma2 =  0.00221947  := 'sigma2_s8'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.27759545 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02170455 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00221952 +/- 0.00423275  := 'sigma2_s8'
 
  = Path 'Cu_5.7158_15' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0017.dat
@@ -258,11 +319,11 @@
               Cu      -5.4224, -0.0000,  1.8075  1
      reff   =  5.71580000
      degen  =  24.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.69238983  := 'reff + reff*alpha'
-     deltar = -0.02341017  := 'reff*alpha'
-     sigma2 =  0.01500000  := 'sigma2_s9'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.69238958 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02341042 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01500000 +/- 5.9249e-04  := 'sigma2_s9'
 
  = Path 'Cu_5.9434_16' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0018.dat
@@ -272,11 +333,11 @@
               Cu      -1.8075,  1.8075, -0.0000  1
      reff   =  5.94340000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.91905765  := 'reff + reff*alpha'
-     deltar = -0.02434235  := 'reff*alpha'
-     sigma2 =  0.00788178  := 'sigma2_s10'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.91905739 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02434261 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00788175 +/- 0.00629846  := 'sigma2_s10'
 
  = Path 'Cu_5.9434_17' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0019.dat
@@ -286,11 +347,11 @@
               Cu      -0.0000,  1.8075,  1.8075  1
      reff   =  5.94340000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.91905765  := 'reff + reff*alpha'
-     deltar = -0.02434235  := 'reff*alpha'
-     sigma2 =  0.00788178  := 'sigma2_s10'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.91905739 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02434261 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00788175 +/- 0.00629846  := 'sigma2_s10'
 
  = Path 'Cu_5.9434_18' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0020.dat
@@ -300,11 +361,11 @@
               Cu      -0.0000,  3.6150, -0.0000  1
      reff   =  5.94340000
      degen  =  48.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  5.91905765  := 'reff + reff*alpha'
-     deltar = -0.02434235  := 'reff*alpha'
-     sigma2 =  0.00788178  := 'sigma2_s10'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  5.91905739 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02434261 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00788175 +/- 0.00629846  := 'sigma2_s10'
 
  = Path 'Cu_6.0479_19' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0021.dat
@@ -314,11 +375,11 @@
               Cu      -0.0000,  1.8075, -1.8075  1
      reff   =  6.04790000
      degen  =  96.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  6.02312965  := 'reff + reff*alpha'
-     deltar = -0.02477035  := 'reff*alpha'
-     sigma2 =  0.01063357  := 'sigma2_s11'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  6.02312938 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02477062 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01063363 +/- 0.00614029  := 'sigma2_s11'
 
  = Path 'Cu_6.0479_20' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0022.dat
@@ -328,11 +389,11 @@
               Cu      -1.8075, -3.6150,  1.8075  1
      reff   =  6.04790000
      degen  =  96.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  6.02312965  := 'reff + reff*alpha'
-     deltar = -0.02477035  := 'reff*alpha'
-     sigma2 =  0.01063357  := 'sigma2_s11'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  6.02312938 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02477062 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01063363 +/- 0.00614029  := 'sigma2_s11'
 
  = Path 'Cu_6.0479_21' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0023.dat
@@ -343,11 +404,11 @@
               Cu      -0.0000, -1.8075,  1.8075  1
      reff   =  6.04790000
      degen  =  96.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  6.02312965  := 'reff + reff*alpha'
-     deltar = -0.02477035  := 'reff*alpha'
-     sigma2 =  0.01063357  := 'sigma2_s11'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  6.02312938 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02477062 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01063363 +/- 0.00614029  := 'sigma2_s11'
 
  = Path 'Cu_6.0479_22' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0024.dat
@@ -358,11 +419,11 @@
               Cu      -1.8075, -0.0000,  1.8075  1
      reff   =  6.04790000
      degen  =  96.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  6.02312965  := 'reff + reff*alpha'
-     deltar = -0.02477035  := 'reff*alpha'
-     sigma2 =  0.01063357  := 'sigma2_s11'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  6.02312938 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02477062 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01063363 +/- 0.00614029  := 'sigma2_s11'
 
  = Path 'Cu_6.2613_23' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0027.dat
@@ -371,11 +432,11 @@
               Cu       3.6150, -3.6150,  3.6150  1
      reff   =  6.26130000
      degen  =  8.00000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  6.23565562  := 'reff + reff*alpha'
-     deltar = -0.02564438  := 'reff*alpha'
-     sigma2 =  0.01500000  := 'sigma2_s12'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  6.23565535 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02564465 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.01500000 +/- 0.00234909  := 'sigma2_s12'
 
  = Path 'Cu_6.3497_24' = 
     feffdat file = data/feffs/Cu1_K_c7_Copper_cif11145\feff0028.dat
@@ -385,10 +446,10 @@
               Cu       1.8075, -0.0000, -1.8075  1
      reff   =  6.34970000
      degen  =  96.0000000
-     n*s02  =  0.91784412  := 's02'
-     e0     =  3.97150704  := 'e0_s2'
-     r      =  6.32369356  := 'reff + reff*alpha'
-     deltar = -0.02600644  := 'reff*alpha'
-     sigma2 =  0.00501787  := 'sigma2_s13'
+     n*s02  =  0.91784451 +/- 0.05724268  := 's02'
+     e0     =  3.97148806 +/- 0.69364436  := 'e0_s2'
+     r      =  6.32369329 +/- 0.00998201  := 'reff + reff*alpha'
+     deltar = -0.02600671 +/- 0.00998201  := 'reff*alpha'
+     sigma2 =  0.00501787 +/- 0.00471074  := 'sigma2_s13'
 
 =======================================================

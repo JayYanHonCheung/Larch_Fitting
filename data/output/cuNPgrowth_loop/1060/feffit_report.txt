@@ -2,11 +2,11 @@
 [[Statistics]]
    nvarys, npts       =  7, 130
    n_independent      =  9.913
-   chi_square         =  49.1310516
-   reduced chi_square =  16.8680066
-   r-factor           =  0.07388172
-   Akaike info crit   =  29.8669921
-   Bayesian info crit =  31.9236930
+   chi_square         =  52.1670618
+   reduced chi_square =  17.9103502
+   r-factor           =  0.07844718
+   Akaike info crit   =  30.4613566
+   Bayesian info crit =  32.5180576
  
 [[Data]]
    fit space          = 'r'
@@ -20,36 +20,31 @@
    n_independent      = 9.913
  
 [[Variables]]
-   deltar_Cu      = -0.01306904 +/- 0.11718881   (init=  0.10000000)
-   deltar_CuO     =  0.01750367 +/- 0.03501888   (init=  0.10000000)
-   e0             =  0.03217540 +/- 5.04008286   (init=  0.10000000)
-   n_Cu           = -0.13423253 +/- 0.87712277   (init=  1.00000000)
-   n_CuO          =  2.80754607 +/- 1.32179090   (init=  1.00000000)
-   sigma2_Cu      =  0.00100000 +/- 0.01023079   (init=  0.00800000)
-   sigma2_CuO     =  0.00580070 +/- 0.00666940   (init=  0.00800000)
+   deltar_Cu      =  0.15131935 +/- 0.17475231   (init=  0.10000000)
+   deltar_CuO     =  0.01711256 +/- 0.03535554   (init=  0.10000000)
+   e0             =  0.04660347 +/- 4.94140574   (init=  0.10000000)
+   n_Cu           =  0.10734646 +/- 0.97945165   (init=  0.13439491)
+   n_CuO          =  2.72003619 +/- 1.21432571   (init=  3.01209403)
+   sigma2_Cu      =  0.00100001 +/- 0.25173750   (init=  0.00800000)
+   sigma2_CuO     =  0.00535090 +/- 0.00607187   (init=  0.00800000)
  
 [[Correlations]]    (unreported correlations are <  0.100)
-   n_Cu, sigma2_Cu      = -0.966
-   n_CuO, sigma2_CuO    =  0.922
-   deltar_CuO, e0       =  0.877
-   sigma2_Cu, sigma2_CuO = -0.543
-   e0, n_CuO            = -0.491
-   n_Cu, sigma2_CuO     =  0.476
-   n_CuO, sigma2_Cu     = -0.476
-   deltar_Cu, n_Cu      = -0.423
-   deltar_Cu, sigma2_Cu =  0.420
-   n_Cu, n_CuO          =  0.418
-   e0, sigma2_CuO       = -0.396
-   e0, sigma2_Cu        =  0.363
-   e0, n_Cu             = -0.349
-   deltar_Cu, sigma2_CuO = -0.237
-   deltar_CuO, n_CuO    = -0.222
-   deltar_Cu, n_CuO     = -0.221
-   deltar_CuO, n_Cu     = -0.214
-   deltar_CuO, sigma2_Cu =  0.214
-   deltar_Cu, e0        =  0.208
-   deltar_CuO, sigma2_CuO = -0.131
-   deltar_Cu, deltar_CuO =  0.111
+   n_Cu, sigma2_Cu      = -0.960
+   n_CuO, sigma2_CuO    =  0.908
+   deltar_CuO, e0       =  0.878
+   sigma2_Cu, sigma2_CuO =  0.400
+   deltar_Cu, n_Cu      =  0.397
+   deltar_Cu, sigma2_Cu = -0.396
+   e0, n_CuO            = -0.394
+   n_CuO, sigma2_Cu     =  0.358
+   n_Cu, sigma2_CuO     = -0.343
+   n_Cu, n_CuO          = -0.312
+   e0, sigma2_CuO       = -0.275
+   deltar_Cu, sigma2_CuO = -0.209
+   deltar_Cu, n_CuO     = -0.196
+   deltar_CuO, n_CuO    = -0.139
+   e0, sigma2_Cu        = -0.124
+   deltar_Cu, e0        =  0.107
  
 [[Paths]]
  = Path 'Cu_2.5562_0' = 
@@ -58,12 +53,12 @@
               Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
               Cu      -1.8075, -0.0000, -1.8075  1
      reff   =  2.55620000
-     degen  = -0.13423253 +/- 0.87712277  := 'n_Cu'
+     degen  =  0.10734646 +/- 0.97945166  := 'n_Cu'
      n*s02  =  0.91800000
-     e0     =  0.03217540 +/- 5.04008285  := 'e0'
-     r      =  2.54313096 +/- 0.11718881  := 'reff + deltar_Cu'
-     deltar = -0.01306904 +/- 0.11718881  := 'deltar_Cu'
-     sigma2 =  0.00100000 +/- 0.01023079  := 'sigma2_Cu'
+     e0     =  0.04660347 +/- 4.94140573  := 'e0'
+     r      =  2.70751935 +/- 0.17475231  := 'reff + deltar_Cu'
+     deltar =  0.15131935 +/- 0.17475231  := 'deltar_Cu'
+     sigma2 =  0.00100001 +/- 0.25173751  := 'sigma2_Cu'
 
  = Path 'CuO_1.9472_0' = 
     feffdat file = data/feffs/Cu1_K_c7_Tenorite_cif11639\feff0001.dat
@@ -71,11 +66,11 @@
               Cu      -0.0000, -0.0000, -0.0000  0 (absorber)
                O      -1.1474,  1.1389, -1.0854  2
      reff   =  1.94720000
-     degen  =  2.80754607 +/- 1.32179090  := 'n_CuO'
+     degen  =  2.72003619 +/- 1.21432571  := 'n_CuO'
      n*s02  =  0.91800000
-     e0     =  0.03217540 +/- 5.04008285  := 'e0'
-     r      =  1.96470367 +/- 0.03501888  := 'reff + deltar_CuO'
-     deltar =  0.01750367 +/- 0.03501888  := 'deltar_CuO'
-     sigma2 =  0.00580070 +/- 0.00666940  := 'sigma2_CuO'
+     e0     =  0.04660347 +/- 4.94140573  := 'e0'
+     r      =  1.96431256 +/- 0.03535554  := 'reff + deltar_CuO'
+     deltar =  0.01711256 +/- 0.03535554  := 'deltar_CuO'
+     sigma2 =  0.00535090 +/- 0.00607187  := 'sigma2_CuO'
 
 =======================================================

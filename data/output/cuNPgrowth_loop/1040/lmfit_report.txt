@@ -1,55 +1,53 @@
 [[Fit Statistics]]
     # fitting method   = leastsq
-    # function evals   = 200
+    # function evals   = 139
     # data points      = 130
     # variables        = 7
-    chi-square         = 529.508155
-    reduced chi-square = 4.30494435
-    Akaike info crit   = 196.573835
-    Bayesian info crit = 216.646576
+    chi-square         = 621.674569
+    reduced chi-square = 5.05426479
+    Akaike info crit   = 217.434700
+    Bayesian info crit = 237.507441
 [[Variables]]
-    deltar_Cu:          -0.01690500 +/- 0.06276512 (371.28%) (init = 0.1)
-    deltar_CuO:          0.00655315 +/- 0.02984760 (455.47%) (init = 0.1)
-    e0:                 -1.29958649 +/- 4.32477758 (332.78%) (init = 0.1)
-    n_Cu:               -0.22217795 +/- 0.73036735 (328.73%) (init = 1)
-    n_CuO:               3.05767510 +/- 1.21948264 (39.88%) (init = 1)
-    sigma2_Cu:           0.00100000 +/- 0.01391670 (1391.67%) (init = 0.008)
-    sigma2_CuO:          0.00663166 +/- 0.00559293 (84.34%) (init = 0.008)
-    degen_pxstpuoxe6p:  -0.22217795 +/- 0.73036735 (328.73%) == 'n_Cu'
+    deltar_Cu:           0.15906911 +/- 0.08491777 (53.38%) (init = 0.1)
+    deltar_CuO:          0.00397048 +/- 0.03192748 (804.12%) (init = 0.1)
+    e0:                 -1.56366749 +/- 4.53117956 (289.78%) (init = 0.1)
+    n_Cu:                0.20729275 +/- 0.87612705 (422.65%) (init = 0.1950027)
+    n_CuO:               2.94347818 +/- 1.17394450 (39.88%) (init = 2.563473)
+    sigma2_Cu:           0.00100000 +/- 0.00838689 (838.69%) (init = 0.008)
+    sigma2_CuO:          0.00607456 +/- 0.00536124 (88.26%) (init = 0.008)
+    degen_pxstpuoxe6p:   0.20729275 +/- 0.87612705 (422.65%) == 'n_Cu'
     s02_pxstpuoxe6p:     0.918 (fixed)
-    e0_pxstpuoxe6p:     -1.29958649 +/- 4.32477759 (332.78%) == 'e0'
+    e0_pxstpuoxe6p:     -1.56366749 +/- 4.53117956 (289.78%) == 'e0'
     ei_pxstpuoxe6p:      0 (fixed)
-    deltar_pxstpuoxe6p: -0.01690500 +/- 0.06276512 (371.28%) == 'deltar_Cu'
-    sigma2_pxstpuoxe6p:  0.00100000 +/- 0.01391670 (1391.67%) == 'sigma2_Cu'
+    deltar_pxstpuoxe6p:  0.15906911 +/- 0.08491777 (53.38%) == 'deltar_Cu'
+    sigma2_pxstpuoxe6p:  0.00100000 +/- 0.00838689 (838.69%) == 'sigma2_Cu'
     third_pxstpuoxe6p:   0 (fixed)
     fourth_pxstpuoxe6p:  0 (fixed)
-    degen_p2uhikgpj3v:   3.05767510 +/- 1.21948263 (39.88%) == 'n_CuO'
+    degen_p2uhikgpj3v:   2.94347818 +/- 1.17394450 (39.88%) == 'n_CuO'
     s02_p2uhikgpj3v:     0.918 (fixed)
-    e0_p2uhikgpj3v:     -1.29958649 +/- 4.32477759 (332.78%) == 'e0'
+    e0_p2uhikgpj3v:     -1.56366749 +/- 4.53117956 (289.78%) == 'e0'
     ei_p2uhikgpj3v:      0 (fixed)
-    deltar_p2uhikgpj3v:  0.00655315 +/- 0.02984760 (455.47%) == 'deltar_CuO'
-    sigma2_p2uhikgpj3v:  0.00663166 +/- 0.00559293 (84.34%) == 'sigma2_CuO'
+    deltar_p2uhikgpj3v:  0.00397048 +/- 0.03192748 (804.12%) == 'deltar_CuO'
+    sigma2_p2uhikgpj3v:  0.00607456 +/- 0.00536124 (88.26%) == 'sigma2_CuO'
     third_p2uhikgpj3v:   0 (fixed)
     fourth_p2uhikgpj3v:  0 (fixed)
 [[Correlations]] (unreported correlations are < 0.100)
-    C(n_Cu, sigma2_Cu)        = 0.964
-    C(n_CuO, sigma2_CuO)      = 0.923
-    C(deltar_CuO, e0)         = 0.885
-    C(e0, n_CuO)              = -0.511
-    C(sigma2_Cu, sigma2_CuO)  = 0.490
-    C(deltar_Cu, sigma2_Cu)   = -0.461
-    C(deltar_Cu, n_Cu)        = -0.460
-    C(n_CuO, sigma2_Cu)       = 0.434
-    C(n_Cu, sigma2_CuO)       = 0.426
-    C(e0, sigma2_CuO)         = -0.413
-    C(e0, sigma2_Cu)          = -0.386
-    C(n_Cu, n_CuO)            = 0.378
-    C(e0, n_Cu)               = -0.368
-    C(deltar_Cu, e0)          = 0.354
-    C(deltar_Cu, sigma2_CuO)  = -0.294
-    C(deltar_Cu, n_CuO)       = -0.291
-    C(deltar_CuO, sigma2_Cu)  = -0.264
-    C(deltar_CuO, n_Cu)       = -0.259
-    C(deltar_CuO, n_CuO)      = -0.256
-    C(deltar_Cu, deltar_CuO)  = 0.254
-    C(deltar_CuO, sigma2_CuO) = -0.161
+    C(n_Cu, sigma2_Cu)       = 0.959
+    C(n_CuO, sigma2_CuO)     = 0.910
+    C(deltar_CuO, e0)        = 0.887
+    C(e0, n_CuO)             = -0.421
+    C(deltar_Cu, sigma2_Cu)  = 0.416
+    C(deltar_Cu, n_Cu)       = 0.410
+    C(sigma2_Cu, sigma2_CuO) = -0.319
+    C(e0, sigma2_CuO)        = -0.303
+    C(n_CuO, sigma2_Cu)      = -0.301
+    C(deltar_Cu, e0)         = 0.298
+    C(deltar_Cu, sigma2_CuO) = -0.286
+    C(deltar_Cu, n_CuO)      = -0.286
+    C(n_Cu, sigma2_CuO)      = -0.274
+    C(n_Cu, n_CuO)           = -0.264
+    C(deltar_Cu, deltar_CuO) = 0.204
+    C(deltar_CuO, n_CuO)     = -0.180
+    C(e0, sigma2_Cu)         = 0.177
+    C(e0, n_Cu)              = 0.143
+    C(deltar_CuO, sigma2_Cu) = 0.121
