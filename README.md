@@ -1,7 +1,5 @@
 # Larch_Fitting
- 
-Please don't upload all 9000 spectra on github.
-
+Tutorial for using xraylarch in python environment for personal use
 
 """
 Plan
